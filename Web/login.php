@@ -1,13 +1,15 @@
 <?php
 
 $host = "localhost:4306"; #get port at XAMP under SQL
-$user = "root";
-$password = "";
-$db = "user";
+$user = "root"; #Default
+$password = ""; #Default
+$db = "user"; #DataBase
 
-$data=mysqli_connect($host, $user, $password, $db);
+session_start();
 
-if ($data === false) {
+$data = mysqli_connect($host, $user, $password, $db);
+
+if ($data === false) { #Check Connection
     die("connection error");
 }
 
@@ -22,14 +24,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $row = mysqli_fetch_array($result);
 
     if ($row["usertype"] == "user") {
+        $_SESSION["username"] = $username;
         header("location:userhome.php");
-    }
 
-    elseif ($row["usertype"] == "admin") {
+    } elseif ($row["usertype"] == "admin") {
+        $_SESSION["username"] = $username;
         header("location:adminhome.php");
-    }
-
-    else{
+        
+    } else {
         echo "username or password incorrect";
     }
 }
