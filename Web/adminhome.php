@@ -1,9 +1,7 @@
+<?php include("server.php")?>
+
 <!DOCTYPE html>
 <html>
-
-<?php
-session_start();
-?>
 
 <head>
     <title></title>
@@ -12,6 +10,8 @@ session_start();
 <body>
     <center>
         <h1>AdminHome</h1><?php echo $_SESSION["username"]?>
+        <br>
+        <a href="logout.php">Logout</a>
     </center>
 
 </body>
