@@ -16,11 +16,7 @@ if ($data === false) { // Check Connection
     die("connection error");
 }       
 
-
-
-
 # register
-
 if (isset($_POST["register"])) {
     $username = mysqli_real_escape_string($data, $_POST["username"]);
     $password = mysqli_real_escape_string($data, $_POST["password"]);
