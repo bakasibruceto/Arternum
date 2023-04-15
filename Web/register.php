@@ -22,7 +22,7 @@
             </div>
             <br><br>
             <div>
-                <input type="submit" name="register">
+                <button type="submit" class ="btn" name="register">register</button>
             </div>
             <br><br>                                        
         </form>

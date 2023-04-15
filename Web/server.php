@@ -14,7 +14,7 @@ $username = "";
 $data = mysqli_connect($host, $db_user, $db_password, $db);
 if ($data === false) { // Check Connection
     die("connection error");
-}
+}       
 
 
 
@@ -22,8 +22,8 @@ if ($data === false) { // Check Connection
 # register
 
 if (isset($_POST["register"])) {
-    $username = mysqli_real_escape_string($data, $_Post["username"]);
-    $password = mysqli_real_escape_string($data, $_Post["password"]);
+    $username = mysqli_real_escape_string($data, $_POST["username"]);
+    $password = mysqli_real_escape_string($data, $_POST["password"]);
 }
 
 if (empty($username)) {
@@ -34,7 +34,7 @@ if (empty($password)) {
 }
 
 // check database if username does not exist
-$user_check_query = "SELECT * FROM login WHERE username='$username' LIMIT 1";
+$user_check_query = "select * from login where username='$username' limit 1";
 $result = mysqli_query($data, $user_check_query);
 $user = mysqli_fetch_assoc($result);
 
@@ -48,8 +48,9 @@ if ($user) { // if user exist
 if (count($errors) == 0) {
     $password = md5($password); //encrypt the password before saving in the database
 
-    $query = "INSERT INTO users (username, password) VALUES('$username', '$password')";
+    $query = "insert into login (username, password, usertype) VALUES ('$username', '$password','user')";
     mysqli_query($data, $query);
+    $_SESSION['username'] = $username;
     header('location: login.php');
 }
 
