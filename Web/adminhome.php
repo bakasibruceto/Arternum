@@ -1,5 +1,6 @@
 <?php 
 session_start();
+# cant access page without loging in
 if (!isset($_SESSION["username"])) {
     header("location: login.php");
     }
