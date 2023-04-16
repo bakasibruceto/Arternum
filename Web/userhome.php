@@ -1,4 +1,9 @@
-<?php include("server.php")?>
+<?php
+session_start();
+if (!isset($_SESSION["username"])) {
+    header("location: login.php");
+}
+?>
 
 <!DOCTYPE html>
 <html>
@@ -9,9 +14,9 @@
 
 <body>
     <center>
-        <h1>UserHome</h1><?php echo $_SESSION["username"]?>
+        <h1>UserHome</h1><?php echo $_SESSION["username"] ?>
         <br>
-        <a href="logout.php">Logout</a>
+        <a href="logout.php"><button>logout</button></a>
     </center>
 
 </body>

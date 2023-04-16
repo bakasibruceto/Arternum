@@ -10,7 +10,8 @@
 <center>
         <h1>Register</h1>
         <br><br><br><br>
-        <form actions="#" method="POST">
+        <form actions="register.php" method="POST">
+        <?php include('errors.php')?>
             <div>
                 <label>username</label>
                 <input type="text" name="username" required>
