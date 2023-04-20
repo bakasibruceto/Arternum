@@ -6,10 +6,10 @@
 
 - To Do Refer To ImageFormat
   - Profile Page (reffer to Pinterest - up to Edit Profile)
-    -![PROF](https://user-images.githubusercontent.com/95122978/233502580-5be3aa88-e228-40f0-bebd-11bcfe810df4.png)
+    -![PROF](https://user-images.githubusercontent.com/95122978/233504114-a14b477a-2cae-4f1a-86e4-4a46841d55cf.png)
     
   - Edit Profile Page 
-    -![EDITPRO](https://user-images.githubusercontent.com/95122978/233502606-d4d31843-ff04-4ebb-8b36-ee09bbc4859e.png)
+    -![EDITPRO](https://user-images.githubusercontent.com/95122978/233504126-0f5d6812-63a0-48bd-a70a-26488ac1a2d1.png)
 
   - Email Page (reffer to image format)
     -![image](https://user-images.githubusercontent.com/95122978/233497692-7269a262-ac7c-434d-b4d7-5214d05f7f1e.png)
