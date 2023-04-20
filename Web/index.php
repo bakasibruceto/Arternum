@@ -17,7 +17,7 @@
   </div>
 </div>
 
-<div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+<div id="content">
   <p><b>asdsadasddas</b></p>
   <p>asdfasdfsdafsadfasdf</p>
   <p>sadfasdfsadfasdf</p>
