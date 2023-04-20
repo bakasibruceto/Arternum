@@ -8,15 +8,7 @@
   padding-left: 100px;
 }
 
-#navbar a{
-  float: left;
-  font-size: 20px;
-  
-  padding-top: 25px;
-  padding-right: 25px;
 
-
-}
 
 #wrapper {
   float: right;
@@ -33,7 +25,7 @@
 }
 
 
-#profile {
+#icon {
   float: right;
   overflow: hidden;
   transition: 0.3s;
@@ -46,6 +38,8 @@
   padding-right: 10%;
  
 }
+
+
 
 
 
@@ -63,9 +57,10 @@
   
 }
 
-#profile #avatar, #avatar::before, #avatar::after{
+#icon #avatar, #avatar::before, #avatar::after{
   float: right;
 }
+
 #avatar::before,
 #avatar::after {
   --scale: 0;
@@ -78,6 +73,7 @@
   transition: 150ms transform;
   transform-origin: top center;
 }
+
 #avatar::before {
   --translate-y: calc(170% - var(--arrow-size));
 
@@ -90,11 +86,69 @@
   max-width: 100%;
   background: var(--tooltip-color);
 }
+
 #avatar:hover::before,
 #avatar:hover::after {
   --scale: 1;
 }
+
 #avatar::after {
+  --translate-y: calc(1 * var(--arrow-size));
+
+  content: '';
+  border: var(--arrow-size) solid transparent;
+  border-bottom-color: var(--tooltip-color); /*arrow pointing upward*/
+  transform-origin: bottom center;
+}
+
+
+#search {
+  transition: 0.3s;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url('images/search.png');
+  background-size: cover;
+  background-position: auto;
+  position: relative;
+}
+
+#icon, #search, #search::before, #search::after{
+  float: right;
+}
+
+#search::before,
+#search::after {
+  --scale: 0;
+  --arrow-size: 15px;
+  --tooltip-color: #333;
+  position: absolute;
+  bottom: -.25rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+  transition: 150ms transform;
+  transform-origin: top center;
+}
+
+#search::before {
+  --translate-y: calc(170% - var(--arrow-size));
+
+  content: attr(data-tooltip);
+  color: white;
+  padding: .5rem;
+  border-radius: .3rem;
+  text-align: center;
+  width: max-content;
+  max-width: 100%;
+  background: var(--tooltip-color);
+}
+
+#search:hover::before,
+#search:hover::after {
+  --scale: 1;
+}
+
+#search::after {
   --translate-y: calc(1 * var(--arrow-size));
 
   content: '';
