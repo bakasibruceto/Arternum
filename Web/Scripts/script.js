@@ -6,26 +6,27 @@ function scrollFunction() {
 
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     
+    //ProfileIcon
     document.getElementById("avatar").style.height = "40px";
     document.getElementById("avatar").style.width = "40px";
-    
-    document.getElementById("wrapper").style.padding = "5px";
-    document.getElementById("wrapper2").style.padding = "29px";
-    document.getElementById("wrapper").style.paddingRight = "160px";
+    //GreyBar
+    document.getElementById("wrapper").style.padding = "10px 10px 50px 10px";
+
+ 
 
     
   } else {
     
-
+    //ProfileIcon
     document.getElementById("avatar").style.height = "60px";
     document.getElementById("avatar").style.width = "60px";
+    
+    document.getElementById("profile").style.paddingRight = "10%";
+    //GreyBar
+    document.getElementById("wrapper").style.padding = "10px 10px 70px 10px";
   
-    document.getElementById("wrapper2").style.padding = "50px";
-
-    document.getElementById("wrapper").style.paddingBottom = "100px";
-    document.getElementById("wrapper").style.paddingTop = "15px";
-    document.getElementById("wrapper2").style.paddingTop = "39px";
-    document.getElementById("wrapper").style.paddingRight = "165px";
+  
+ 
 
   
    

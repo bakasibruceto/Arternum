@@ -8,22 +8,8 @@
   padding-left: 100px;
 }
 
-#wrapper2{
-  overflow: hidden;
-  transition: 0.3s;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  padding: 50px;
-  padding-right: 165px;
-  background-color: #f1f1f1;
-}
-
-
-
 #wrapper {
+  float: right;
   overflow: hidden;
   transition: 0.3s;
   position: fixed;
@@ -31,37 +17,28 @@
   top: 0;
   z-index: 1;
   width: 100%;
-  padding: 15px;
-  padding-right: 165px;
-
+  padding: 10px 10px 70px 10px;
+  padding-right: 150x;
+  background: #f1f1f1;
 }
 
 
-
-#wrapper, #avatar, #avatar:before, #avatar::after{
+#profile {
   float: right;
+  overflow: hidden;
+  transition: 0.3s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 10px 10px 50px 10px;
+  padding-right: 10%;
+ 
 }
 
-#navbar a {
-  padding: 12px;
-  float: left;
-  color: black;
-  text-align: center;
-  text-emphasis-position: bottom;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-}
 
-#navbar #logo  {
-  font-size: 35px;
-  font-weight: bold;
-  transition: 0.4s;
-}
-
- #avatar {
-  
+#avatar {
   transition: 0.3s;
   width: 60px;
   height: 60px;
@@ -72,6 +49,10 @@
   position: relative;
   font-size: 12px;
   
+}
+
+#profile #avatar, #avatar::before, #avatar::after{
+  float: right;
 }
 
 #avatar::before,
@@ -88,7 +69,7 @@
 }
 
 #avatar::before {
-  --translate-y: calc(100% - var(--arrow-size));
+  --translate-y: calc(170% - var(--arrow-size));
 
   content: attr(data-tooltip);
   color: white;
@@ -106,7 +87,7 @@
 }
 
 #avatar::after {
-  --translate-y: calc(-1 * var(--arrow-size));
+  --translate-y: calc(1 * var(--arrow-size));
 
   content: '';
   border: var(--arrow-size) solid transparent;
