@@ -1,15 +1,26 @@
 # WebSite For Finals
+(04-17-2023) - (04-19-2023) 
 Week 1 Back End Part 1 (Complete)
 - DB Connection
 - Login
 - Register
 - Errors
 
+(04-21-2023) - 
 Week 1.1 Login and SignUp Ui
 -Refer to this link
   -https://www.youtube.com/watch?v=etsPyHLON7g&ab_channel=CodingLab
 
-Week 2 User Crude UI
+Week 2 Back End Part 2
+- User Profile Crude
+  - Change Profile Picture
+  - Change UserName
+  - Change Email
+  - Change Password
+  - SMTP
+
+(04-20-2023) - 
+Week 2.1 User Crude UI
 - Current BUGS
   - UserProfile can't be hovered horizonally
     -Bug Caussed by Logo Icon ("Temporary")
