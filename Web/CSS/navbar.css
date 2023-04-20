@@ -6,9 +6,22 @@
   top: 0;
   z-index: 1;
   padding-left: 100px;
-
-
 }
+
+#wrapper2{
+  overflow: hidden;
+  transition: 0.3s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 50px;
+  padding-right: 165px;
+  background-color: #f1f1f1;
+}
+
+
 
 #wrapper {
   overflow: hidden;
@@ -20,15 +33,17 @@
   width: 100%;
   padding: 15px;
   padding-right: 165px;
-  background-color: #f1f1f1;
+
 }
 
-#wrapper a{
+
+
+#wrapper, #avatar, #avatar:before, #avatar::after{
   float: right;
 }
 
 #navbar a {
-  padding: 28px;
+  padding: 12px;
   float: left;
   color: black;
   text-align: center;
@@ -37,7 +52,6 @@
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-
 }
 
 #navbar #logo  {
@@ -46,7 +60,7 @@
   transition: 0.4s;
 }
 
-#avatar {
+ #avatar {
   
   transition: 0.3s;
   width: 60px;
@@ -55,7 +69,8 @@
   background-image: url('images/DefaultProfile.png');
   background-size: cover;
   background-position: auto;
-  position: auto;
+  position: relative;
+  font-size: 12px;
   
 }
 
@@ -63,7 +78,7 @@
 #avatar::after {
   --scale: 0;
   --arrow-size: 15px;
-  --tooltip-color: black;
+  --tooltip-color: #333;
   position: absolute;
   bottom: -.25rem;
   left: 50%;
