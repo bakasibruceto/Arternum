@@ -1,10 +1,16 @@
 # WebSite For Finals
+Week 1 Back End Part 1 (Complete)
+- DB Connection
+- Login
+- Register
+- Errors
 
-- BUGS
+Week 2 User Crude UI
+- Current BUGS
   - UserProfile can't be hovered horizonally
     -Bug Caussed by Logo Icon ("Temporary")
-
-- To Do Refer To ImageFormat
+- To Do
+Refer To ImageFormat
   - Profile Page (reffer to Pinterest - up to Edit Profile)
     -![PROF](https://user-images.githubusercontent.com/95122978/233504114-a14b477a-2cae-4f1a-86e4-4a46841d55cf.png)
     
