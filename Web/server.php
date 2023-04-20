@@ -6,9 +6,9 @@ $host = "localhost:4306"; #get port at XAMPP under SQL
 $db_user = "root";
 $db_password = "";
 $db = "user";
-$errors = array();
 $username = "";
 $email = "";
+$errors = array();
 
 # connect to database
 $data = mysqli_connect($host, $db_user, $db_password, $db);
@@ -42,7 +42,7 @@ if (isset($_POST["register"])) {
     // register if no errors
     if (count($errors) == 0) {
         $password = $password_1;
-        $password = md5($password);
+        //$password = md5($password);
         $query = "insert into login (username, email, password, usertype) VALUES ('$username', '$email','$password','user')";
         mysqli_query($data, $query);
         $_SESSION['username'] = $username;
@@ -56,7 +56,7 @@ if (isset($_POST["register"])) {
 if (isset($_POST['login'])) {
     $username = mysqli_real_escape_string($data, $_POST['username']);
     $password = mysqli_real_escape_string($data, $_POST['password']);
-    $password = md5($password);
+    //$password = md5($password);
     $sql = "select * from login where username ='" . $username . "'  and  password = '" . $password  . "'";
 
     $result = mysqli_query($data, $sql);
