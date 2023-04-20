@@ -1,5 +1,5 @@
 # To Do
-###bugs
+### bugs
  - UserProfile can't be hovered horizonally
     - Bug Caussed by Logo Icon ("Temporary")
 
