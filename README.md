@@ -1,6 +1,7 @@
 # WebSite For Finals#
-(04-17-2023) - (04-19-2023)
+
 ##Week 1 Back End Part 1 (Complete)
+(04-17-2023) - (04-19-2023)
   - ~~DB Connection~~
   - ~~Login~~
   - ~~Register~~
