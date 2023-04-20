@@ -2,7 +2,9 @@
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 28px;
-    transition: 0.4s;
+    padding-left: 100px;
+
+    transition: 0.3s;
     position: fixed;
     width: 100%;
     top: 0;
@@ -37,7 +39,7 @@
   }
   
   #navbar-right {
-    float: right;
+    float: center;
   }
   
   @media screen and (max-width: 580px) {
@@ -50,6 +52,6 @@
       text-align: left;
     }
     #navbar-right {
-      float: none;
+      float: center;
     }
   }
