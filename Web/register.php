@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <center>
+    <div id="container">
         <h1>Register</h1>
         <br><br><br><br>
         <form actions="register.php" method="POST">
@@ -40,7 +40,7 @@
                 <a href="login.php"><input type="button" value="Login"></a>
             </div>
         </form>
-    </center>
+    </div>
 
 </body>
 
