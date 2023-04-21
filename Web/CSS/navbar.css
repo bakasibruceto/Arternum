@@ -15,6 +15,17 @@
   
 }
 
+#Xover {
+  overflow: hidden;
+  background-image: url("images/cover.jpg");
+  width: 100%;
+  top: 30%;
+  position: fixed;
+  background-size: cover;
+  background-position: auto;
+  position: relative;
+}
+
 #wrapper {
   float: right;
   overflow: hidden;
@@ -23,10 +34,10 @@
   width: 100%;
   top: 0;
   z-index: 1;
-  width: 100%;
   padding: 10px 10px 70px 10px;
   padding-right: 150x;
   background: #5638ac;
+  opacity: 0;
 }
 
 
