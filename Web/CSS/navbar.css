@@ -14,8 +14,6 @@
   
 }
 
-
-
 #wrapper {
   float: right;
   overflow: hidden;
@@ -27,13 +25,11 @@
   width: 100%;
   padding: 10px 10px 70px 10px;
   padding-right: 150x;
-  /*background: #f1f1f1;*/
+  background: #f1f1f1;
 }
 
 
-#icon {
-  
-
+#icon { /*Parent Div*/
   overflow: hidden;
   transition: 0.3s;
   position: fixed;
@@ -42,11 +38,9 @@
   z-index: 1;
   width: 100%;
   padding: 10px 10px 50px 10px;
- 
- 
 }
 
-#logo {
+#logo { /*icon*/
   transition: 0.3s;
   width: 60px;
   height: 60px;
@@ -59,14 +53,7 @@
   margin-left: 150px;
 }
 
-
-
-
-
-
-
-
-#avatar {
+#avatar { /*icon*/
   transition: 0.3s;
   width: 60px;
   height: 60px;
@@ -76,17 +63,28 @@
   background-position: auto;
   position: relative;
   font-size: 12px;
- 
   margin: 10%;
-  margin-top: 0.5%;
-  
-  
+  margin-top: 0.1%;
 }
+
+
+#search { /*icon*/
+  transition: 0.3s;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-image: url('images/search.png');
+  background-size: cover;
+  background-position: auto;
+  position: relative;
+  font-size: 12px;
+  margin-left: 17%;
+  margin-top: 2%;
+}
+
 
 #icon, #avatar, #avatar::before, #avatar::after{
   float: right;
-
- 
 }
 
 #avatar::before,
@@ -127,21 +125,6 @@
   border: var(--arrow-size) solid transparent;
   border-bottom-color: var(--tooltip-color); /*arrow pointing upward*/
   transform-origin: bottom center;
-}
-
-/*Search Icon*/
-#search {
-  transition: 0.3s;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background-image: url('images/search.png');
-  background-size: cover;
-  background-position: auto;
-  position: relative;
-  font-size: 12px;
-  margin-left: 17%;
-  margin-top: 2%;
 }
 
 #icon, #search, #search::before, #search::after{
