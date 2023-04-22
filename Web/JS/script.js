@@ -1,12 +1,25 @@
-//Navbar on scroll
 
+//Search Icon
+function openSearch() {
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function closeSearch() {
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+
+//Profile Head Dropdown
 function menuToggle(){
   const toggleMenu = document.querySelector('#menu');
   toggleMenu.classList.toggle('active')
 
+
 }
 window.onscroll = function () { scrollFunction() };
 
+
+//Navbar on scroll
 function scrollFunction() {
 
   if ((document.body.scrollTop > 80)|| (document.documentElement.scrollTop > 80)) {
@@ -14,6 +27,7 @@ function scrollFunction() {
     //ProfileIcon
     document.getElementById("avatar").style.height = "40px";
     document.getElementById("avatar").style.width = "40px";
+    document.getElementById("avatar").style.marginTop = "-1px";
 
     //LogoIcon
     document.getElementById("logo").style.height = "40px";
@@ -30,8 +44,12 @@ function scrollFunction() {
     document.getElementById("wrapper").style.opacity = "1";
     document.getElementById("wrapper").style.padding = "10px 10px 50px 10px";
 
+    //dropdown
     document.getElementById("menu").style.top = "60px";
     document.getElementById("action").style.top = "60px";
+    document.getElementById("menu").style.right = "50px";
+    document.getElementById("action").style.right = "50px";
+ 
   
 
   } else {
@@ -39,6 +57,7 @@ function scrollFunction() {
     //ProfileIcon
     document.getElementById("avatar").style.height = "60px";
     document.getElementById("avatar").style.width = "60px";
+    document.getElementById("avatar").style.marginTop = "5px";
 
     //Search Icon
     document.getElementById("search").style.marginTop = "2%";
@@ -56,8 +75,11 @@ function scrollFunction() {
     document.getElementById("wrapper").style.opacity = "0";
     document.getElementById("wrapper").style.padding = "10px 10px 80px 10px";
 
+    //dropdown
     document.getElementById("menu").style.top = "80px";
     document.getElementById("action").style.top = "80px";
+    document.getElementById("menu").style.right = "60px";
+    document.getElementById("action").style.right = "60px";
   
   }
 
