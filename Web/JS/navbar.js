@@ -24,6 +24,10 @@ function scrollFunction() {
     document.getElementById("wrapper").style.opacity = "1";
     document.getElementById("wrapper").style.padding = "10px 10px 50px 10px";
 
+    document.getElementById("menu").style.top = "60px";
+    document.getElementById("action").style.top = "60px";
+  
+
   } else {
 
     //ProfileIcon
@@ -46,5 +50,10 @@ function scrollFunction() {
     document.getElementById("wrapper").style.opacity = "0";
     document.getElementById("wrapper").style.padding = "10px 10px 80px 10px";
 
+    document.getElementById("menu").style.top = "80px";
+    document.getElementById("action").style.top = "80px";
+  
   }
+
+
 }

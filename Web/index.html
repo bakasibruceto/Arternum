@@ -10,52 +10,95 @@
 </head>
 
 <body>
-  <div id="cover"></div>
-  <div id="wrapper"></div>
  
-  <div id="icon">
-    <a href="#profile">
-      <div id="avatar" data-tooltip="Profile"></div>
-    </a>
-    <a href="#default">
-      <div id="logo" data-tooltip="ye"></div>
-    </a>
-    <div id="navbar">
-      <a href="#home">Home</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-    </div>
+    <div id="wrapper"></div>
 
-    <a href="#Search">
-      <div id="search" data-tooltip="Search" onclick="openSearch()"></div>
-    </a>
-    <div id="myOverlay" class="overlay">
-      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
-      <div class="overlay-content">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"></button>
-        </form>
+    <div id="icon">
+
+      <div id="action">
+        <div id="avatar" onclick="menuToggle();"><a href="#"><img src="CSS/images/DefaultProfile.png"></a></div>
+        <div id="menu">
+          <h3>Someone Famousasdsad<br><span>Website Designerasdsad</span></h3>
+          <ul>
+            <li>
+              <div id="proficon"><a href="#profile">My Profile</a></div>
+            </li>
+            <li>
+              <div id="editicon"><a href="#edit-profile">Edit Profile</a></div>
+            </li>
+            <li>
+              <div id="inboxicon"><a href="#Inbox">Inbox</a></div>
+            </li>
+            <li>
+              <div id="seticon"><a href="#Settings">Settings</a></div>
+            </li>
+            <li>
+              <div id="logicon"><a href="#logout">Logout</a></div>
+            </li>
+          </ul>
+        </div>
       </div>
+      <script src="JS/dropdown.js"></script>
+
+      <div>
+        <a href="#">Terms</a>
+        <a href="#">About us</a>
+        <a href="#">References</a>
+        <a href="#">Source Code</a>
+      </div>
+
+
+      <a href="#default">
+        <div id="logo" data-tooltip="ye"></div>
+      </a>
+      <div id="navbar">
+
+      </div>
+
+      <a href="#Search">
+        <div id="search" data-tooltip="Search" onclick="openSearch()"></div>
+      </a>
+      <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"></button>
+          </form>
+        </div>
+      </div>
+      <script src="JS/search.js"></script>
+
     </div>
-    <script src="JS/search.js"></script>
+    <div id="header">Dashboard</div>
+    <div id="header2">
+      <a href="#">dashboard</a>
+      <a href="#">friends</a>
+      <a href="#ss">account Settings</a>
+    </div>
+    <div id="content">
 
+      <p><b>asdsadasddas</b></p>
+      <p>asdfasdfsdafsadfasdf</p>
+      <p>sadfasdfsadfasdf</p>
+      <p><b>Note:</b> asdasdsad</p>
+      <p>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.</p>
+    </div>
+ 
+  <div id="footer">
+  
+      <a href="#">Terms</a>
+      <a href="#">About us</a>
+      <a href="#">References</a>
+      <a href="#">Source Code</a>
 
-
-
+    powered by Team Aternum
   </div>
-  <div id="content">
-    
-    <p><b>asdsadasddas</b></p>
-    <p>asdfasdfsdafsadfasdf</p>
-    <p>sadfasdfsadfasdf</p>
-    <p><b>Note:</b> asdasdsad</p>
-    <p>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-      deserunt mollit anim id est laborum.</p>
-  </div>
+
 
   <script src="JS/navbar.js"></script>
 </body>

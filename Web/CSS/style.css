@@ -1,7 +1,13 @@
 @import "navbar.css";
 @import "searchbar.css";
+@import "dropdown.css";
 
-* {box-sizing: border-box;}
+* 
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 html{
     scroll-behavior: smooth;
@@ -10,18 +16,84 @@ html{
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #24222a;
+  background-color: #18171c;
+  
 }
 
 #content{
-  margin-top: 210px;
-  padding: 15px 15px 2500px;
+  background-color: #24222a;
+  margin: 0 130px 0 130px;
+  padding: 15px 15px 250px;
+ 
+}
+
+#header{
+  
+  background-color: white;
+  margin: 100px 130px 0 130px;
+  padding: 15px 15px 0px;
   font-size: 30px;
 }
 
-/*Hide Scrollbar*/
+#header2{
+
+  
+  background-color: #45283c;
+  margin: 0px 130px 0 130px;
+  padding: 15px 15px 0px;
+  font-size: 30px;
+}
+
+#footer{
+  border: 3px solid #24222a;
+  background-color: #24222a;
+  margin-top: 10px;
+  padding: 15px 15px 0px;
+}
+
+#footer a{
+  text-align: center;
+  font-size: 30px;
+}
+
+#Xover{
+  background-image: url('images/cover.jpg');
+  filter: blur(1px) ;
+  position: relative;
+  padding: 10px 10px 160px 10px;
+}
+
+
+/*profile*/
+#action #avatar
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 50%;
+  overflow: hidden;
+  margin-right: 200px;
+  transition: 0.3s;
+  border-radius: 50%;
+
+}
+
+/*profile*/
+#action #avatar img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+/*
+/*Hide Scrollbar
 ::-webkit-scrollbar{
   width:0px;
-}
+}*/
 
 
