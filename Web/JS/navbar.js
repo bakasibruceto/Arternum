@@ -1,9 +1,15 @@
 //Navbar on scroll
+
+function menuToggle(){
+  const toggleMenu = document.querySelector('#menu');
+  toggleMenu.classList.toggle('active')
+
+}
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
 
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+  if ((document.body.scrollTop > 80)|| (document.documentElement.scrollTop > 80)) {
 
     //ProfileIcon
     document.getElementById("avatar").style.height = "40px";

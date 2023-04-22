@@ -9,6 +9,7 @@
   padding: 0;
 }
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -73,6 +74,7 @@ body {
   margin-right: 200px;
   transition: 0.3s;
   border-radius: 50%;
+  cursor: pointer;
 
 }
 
