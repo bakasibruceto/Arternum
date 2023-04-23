@@ -55,8 +55,8 @@ function scrollFunction() {
   } else {
 
     //ProfileIcon
-    document.getElementById("avatar").style.height = "60px";
-    document.getElementById("avatar").style.width = "60px";
+    document.getElementById("avatar").style.height = "55px";
+    document.getElementById("avatar").style.width = "55px";
     document.getElementById("avatar").style.marginTop = "5px";
 
     //Search Icon

@@ -28,7 +28,7 @@ body {
 
 #content {
   background-color: #24222a;
-  margin: 0 128px 0 128px;
+  margin: 0 130px 0 130px;
   padding: 15px 15px 300px;
   color: white;
 }
@@ -36,12 +36,11 @@ body {
 #header {
   overflow: hidden;
   background-color: #221f2e;
-  margin: 95px 128px 0 128px;
+  margin: 96.5px 130px 0 130px;
   padding: 15px;
-  padding-bottom: 27px;
+  padding-bottom: 30px;
   font-size: 18px;
   color: white;
-  
 }
 
 #header span {
@@ -59,7 +58,7 @@ body {
 
 #header2 {
   background-color: #2e293d;
-  margin: 0px 128px 0 128px;
+  margin: 0px 130px 0 130px;
   font-size: 18px;
 }
 
@@ -103,13 +102,14 @@ body {
 
 /*profile*/
 #action #avatar {
+
   position: relative;
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   border: 50%;
   overflow: hidden;
-  margin-right: 119px;
-  margin-top: 5px;
+  margin-right: 120px;
+  margin-top: 4px;
   transition: 0.3s;
   border-radius: 50%;
   cursor: pointer;
