@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-  <?php include('navbar.php'); ?>
-  <?php include('header.php'); ?>
-  <?php include('header2.php'); ?>
-  <?php include('content.php'); ?>
-  <?php include('footer.php'); ?>
+  <?php include('PHP/pages/logged-in/navbar.php'); ?>
+  <?php include('PHP/pages/logged-in/header.php'); ?>
+  <?php include('PHP/pages/logged-in/header2.php'); ?>
+  <?php include('PHP/pages/logged-in/content.php'); ?>
+  <?php include('PHP/pages/logged-in/footer.php'); ?>
   <script src="JS/script.js"></script>
 </body>
 </html>

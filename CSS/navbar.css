@@ -1,4 +1,4 @@
-#icon { /*Parent Div*/
+#container { 
   overflow: hidden;
   transition: 0.3s;
   position: fixed;

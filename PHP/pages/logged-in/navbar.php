@@ -35,7 +35,7 @@
         <br>
       </div>
     </div>
-    <div id="icon">
+    <div id="container">
       <div id="avatar" onclick="menuToggle();">
         <img src="CSS/images/DefaultProfile.png">
       </div>
