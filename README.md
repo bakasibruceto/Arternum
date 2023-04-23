@@ -1,12 +1,4 @@
 # Arternum
-## **_bugs_** ##
- - UserProfile can't be hovered horizonally
-    - Bug Caussed by Logo Icon ("Temporary")
-
-### **Login & SignUp** _nyah_
-  #### _Refer to link_
-   https://www.youtube.com/watch?v=etsPyHLON7g&ab_channel=CodingLab
-   
 ### **User Crude UI**
 #### _Refer To ImageFormat_
   ### Profile Page _fiona_
