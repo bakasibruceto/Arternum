@@ -5,46 +5,59 @@
 @font-face {
   font-family: 'custom';
   src: url(Fonts/Torus-Regular.otf);
-  
+
 }
 
-* 
-{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body { 
+body {
   margin: 0;
   font-family: 'custom';
   background-color: #18171c;
-  
+
 }
 
-#content{
+#content {
   background-color: #24222a;
   margin: 0 128px 0 128px;
   padding: 15px 15px 300px;
   color: white;
 }
 
-#header{
- 
+#header {
+  overflow: hidden;
   background-color: #221f2e;
   margin: 95px 128px 0 128px;
-  padding: 10px;
-  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 27px;
+  font-size: 18px;
   color: white;
   
 }
 
-#header2{
+#header span {
+  margin-left: 78px;
+}
+
+#homeicon {
+  margin-top: -23px;
+  margin-left: 37px;
+ 
+  position: relative;
+  width: 10px;
+  height: 10px;
+}
+
+#header2 {
   background-color: #2e293d;
   margin: 0px 128px 0 128px;
   font-size: 18px;
@@ -62,33 +75,34 @@ body {
   color: #c2b8e0;
 }
 
-#footer{
+#footer {
   background-color: #24222a;
   margin-top: 7px;
-  text-align: center; 
+  text-align: center;
   padding: 15px;
   font-size: 12px;
   color: #c2b8e0;
 }
 
-#footer a{
+#footer a {
   padding: 12px;
   text-decoration: none;
   color: white;
 }
 
 
-#Xover{
+#Xover {
   background-image: url('images/cover.jpg');
-  filter: blur(1px) ;
+  filter: blur(1px);
   position: relative;
   padding: 10px 10px 160px 10px;
 }
 
 
+
+
 /*profile*/
-#action #avatar
-{
+#action #avatar {
   position: relative;
   width: 60px;
   height: 60px;
@@ -103,8 +117,7 @@ body {
 }
 
 /*profile*/
-#action #avatar img
-{
+#action #avatar img {
   position: absolute;
   top: 0;
   left: 0;
@@ -115,9 +128,6 @@ body {
 }
 
 
-Hide Scrollbar
-::-webkit-scrollbar{
-  width:0px;
+Hide Scrollbar::-webkit-scrollbar {
+  width: 0px;
 }
-
-

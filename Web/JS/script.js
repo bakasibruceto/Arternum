@@ -47,8 +47,8 @@ function scrollFunction() {
     //dropdown
     document.getElementById("menu").style.top = "60px";
     document.getElementById("action").style.top = "60px";
-    document.getElementById("menu").style.right = "50px";
-    document.getElementById("action").style.right = "50px";
+    document.getElementById("menu").style.right = "75px";
+    document.getElementById("action").style.right = "75px";
  
   
 
@@ -78,8 +78,8 @@ function scrollFunction() {
     //dropdown
     document.getElementById("menu").style.top = "80px";
     document.getElementById("action").style.top = "80px";
-    document.getElementById("menu").style.right = "60px";
-    document.getElementById("action").style.right = "60px";
+    document.getElementById("menu").style.right = "85px";
+    document.getElementById("action").style.right = "85px";
   
   }
 
