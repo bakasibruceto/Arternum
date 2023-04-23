@@ -3,3 +3,8 @@
 @import "src/navbar.css";
 @import "src/dropdown.css";
 @import "src/searchbar.css";
+
+@font-face {
+    font-family: 'custom';
+    src: url(Fonts/Torus-Regular.otf);
+}
