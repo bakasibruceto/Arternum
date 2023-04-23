@@ -3,3 +3,7 @@
 @import "src/fonts.css";
 @import "src/default.css";
 
+@font-face {
+    font-family: 'custom';
+    src: url(Fonts/Torus-Regular.otf);
+}
