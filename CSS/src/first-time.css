@@ -16,12 +16,13 @@
     text-decoration: none;
 }
 
-#sign a {
+#sign p  {
     color: plum;
     float: right;
     margin-top: -20px;
     margin-right: 150px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 #header-first {

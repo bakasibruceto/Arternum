@@ -1,13 +1,4 @@
-@import "navbar.css";
-@import "searchbar.css";
-@import "dropdown.css";
-@import "first-time.css";
 
-@font-face {
-  font-family: 'custom';
-  src: url(Fonts/Torus-Regular.otf);
-
-}
 
 * {
   box-sizing: border-box;

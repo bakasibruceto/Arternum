@@ -9,13 +9,12 @@ function closeSearch() {
 }
 
 
-//Profile Head Dropdown
+//Dropdown
 function menuToggle(){
   const toggleMenu = document.querySelector('#menu');
   toggleMenu.classList.toggle('active')
-
-
 }
+
 window.onscroll = function () { scrollFunction() };
 
 
@@ -80,7 +79,6 @@ function scrollFunction() {
     document.getElementById("action").style.top = "80px";
     document.getElementById("menu").style.right = "85px";
     document.getElementById("action").style.right = "85px";
-  
   }
 
 

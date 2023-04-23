@@ -1,4 +1,4 @@
-<?php include("server.php")?>
+<?php include("PHP/backend/server.php")?>
 
 <!DOCTYPE html>
 <html>
@@ -15,7 +15,7 @@
         <br>
 
         <form actions="login.php" method="POST">
-            <?php include('errors.php'); ?>
+            <?php include('PHP/backend/errors.php'); ?>
             <div>
                 <label>username</label>
                 <input type="text" name="username" required>
