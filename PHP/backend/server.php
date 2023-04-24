@@ -12,9 +12,9 @@ $errors = array();
 $id;
 
 
-$home = 'PHP/pages/logged-in/content/home.php';
-$account_settings = 'PHP/pages/logged-in/content/account-settings.php';;
-$friends = 'PHP/pages/logged-in/content/friends.php';
+$home = 'PHP/pages/dashboard/content/home.php';
+$account_settings = 'PHP/pages/dashboard/content/account-settings.php';;
+$friends = 'PHP/pages/dashboard/content/friends.php';
 $content = $home;
 
 # connect to database
