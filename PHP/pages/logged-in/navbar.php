@@ -12,8 +12,8 @@
     <div id="wrapper"></div>
     <div id="drop">
       <div id="menu">
-        <h3>bakasibruceto</h3>
-        <p>abla09027@gmail.com</p>
+        <h3><?php echo $_SESSION["username"];?></h3>
+        <p><?php echo $_SESSION["email"];?></p>
         <br>
         <ul>
           <li>
@@ -29,7 +29,7 @@
             <div id="seticon"><a href="#Settings">Settings</a></div>
           </li>
           <li>
-            <div id="logicon"><a href="#logout">Logout</a></div>
+            <div id="logicon"><a href="logout.php">Logout</a></div>
           </li>
         </ul>
         <br>
