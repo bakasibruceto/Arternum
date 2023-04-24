@@ -1,4 +1,4 @@
-<?php include('PHP/backend/server.php'); ?>
+<?php include('PHP/backend/server.php')  ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

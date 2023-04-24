@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,17 +11,20 @@
   <div id="action">
     <div id="drop">
       <div id="menu">
-        <form actions="C:\xampp\htdocs\Finals Project\index.php" method="POST">
+        <form actions="#" method="POST" autocomplete="off">
+        
           <p>Sign in To Proceed</p>
           <br>
-          <input type="text" name="username" placeholder="username" autocomplete="off">
+          <input type="text" name="username" placeholder="username" required>
           <br><br>
-          <input type="password" name="password" placeholder="password" autocomplete="off">
+          <input type="password" name="password" placeholder="password" required>
           <br>
           <!--error.php-->
+          <?php include('PHP/backend/errors.php'); ?>
           <a href="#">I've forgotten my details</a>
-          <button type="submit" name="login">Sign in</button>
+          <input type="submit" name="login" value="Login" onblur="checkUser(this)">
         </form>
+
       </div>
     </div>
     <div id="nav">

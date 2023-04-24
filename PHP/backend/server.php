@@ -9,6 +9,13 @@ $db = "user";
 $username = "";
 $email = "";
 $errors = array();
+$id;
+
+
+$home = 'PHP/pages/logged-in/content/home.php';
+$account_settings = 'PHP/pages/logged-in/content/account-settings.php';;
+$friends = 'PHP/pages/logged-in/content/friends.php';
+$content = $home;
 
 # connect to database
 $data = mysqli_connect($host, $db_user, $db_password, $db);
@@ -16,12 +23,15 @@ if ($data === false) { // Check Connection
     die("connection error");
 }
 
+
+
+
 # register
 if (isset($_POST["register"])) {
-    $username = mysqli_real_escape_string($data, $_POST["username"]);
-    $email = mysqli_real_escape_string($data, $_POST['email']);
-    $password_1 = mysqli_real_escape_string($data, $_POST['password_1']);
-    $password_2 = mysqli_real_escape_string($data, $_POST['password_2']);
+    $username = $_POST["username"];
+    $email = $_POST['email'];
+    $password_1 = $_POST['password_1'];
+    $password_2 = $_POST['password_2'];
     if ($password_1 != $password_2) {
         array_push($errors, "The two passwords do not match");
     }
@@ -51,22 +61,29 @@ if (isset($_POST["register"])) {
 }
 
 
+
 # login
 
 if (isset($_POST['login'])) {
-    $username = mysqli_real_escape_string($data, $_POST['username']);
-    $password = mysqli_real_escape_string($data, $_POST['password']);
+    $username = $_POST['username'];
+    $password =$_POST['password'];
+
     //$password = md5($password);
     $sql = "select * from login where username ='" . $username . "'  and  password = '" . $password  . "'";
 
     $result = mysqli_query($data, $sql);
-
     $row = mysqli_fetch_array($result);
-   
 
+    $email = $row['email'] ;
+    $id = $row['id'];
+    $username = $row['username'];
+
+    $_SESSION["id"] = $id;
+    $_SESSION["email"] = $email;
+    $_SESSION["username"] = $username;
+ 
     if (mysqli_num_rows($result) > 0) {
         if ($row["usertype"] == "user") {
-            $_SESSION["username"] = $username;
             header("location:logged.php");
         } elseif ($row["usertype"] == "admin") {
             $_SESSION["username"] = $username;
@@ -78,4 +95,7 @@ if (isset($_POST['login'])) {
     } else {
         array_push($errors, "Wrong userame/password combination");
     }
+    
 }
+
+

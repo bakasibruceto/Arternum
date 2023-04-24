@@ -19,13 +19,14 @@
     margin: 0;
     font-family: 'custom';
     background-color: #18171c;
-  
+    height: 100%;
   }
-  
+
+
   #content {
     background-color: #24222a;
     margin: 0 130px 0 130px;
-    padding: 15px 15px 110px;
+    padding: 0 100px 110px 100px;
     color: white;
   }
   
@@ -55,28 +56,60 @@
   #header2 {
     background-color: #2e293d;
     margin: 0px 130px 0 130px;
-    font-size: 18px;
+    font-size: 14px;
+    padding: 15px;
+    padding-left: 100px;
   }
-  
+
   #header2 ul {
     display: flex;
     list-style-type: none;
     color: white;
+   
   }
   
   #header2 a {
     padding: 12px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-decoration: none;
     color: #c2b8e0;
+    border-bottom:1px solid #5638ac ;
+  }
+  
+  #header2 #t{
+    cursor: pointer;
+  }
+
+
+  #header2 #no:hover{
+    overflow: visible;
+    border-bottom: 4px solid #5638ac;
+    padding-bottom: 13px;
+    margin-bottom: 50px;
+    color: white;
+  }
+
+  #header2 #active{
+    overflow: visible;
+    border-bottom: 4px solid #5638ac;
+    padding-bottom: 13px;
+    margin-bottom: 50px;
+    color: white;
   }
   
   #footer {
+   
     background-color: #24222a;
     margin-top: 7px;
     text-align: center;
     padding: 15px;
     font-size: 12px;
     color: #c2b8e0;
+    position: absolute;
+    width: 100%;
+ 
   }
   
   #footer a {
@@ -84,6 +117,7 @@
     text-decoration: none;
     color: white;
   }
+  
   
   
   #Xover {
@@ -124,6 +158,6 @@
   }
   
   
-  Hide Scrollbar::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 0px;
   }
