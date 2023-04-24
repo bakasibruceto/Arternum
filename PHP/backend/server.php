@@ -5,13 +5,14 @@ session_start();
 $host = "localhost:4306"; #get port at XAMPP under SQL
 $db_user = "root";
 $db_password = "";
-$db = "user";
+$db = "user"; #database name
 $username = "";
 $email = "";
 $errors = array();
 $id;
+// login = table name
 
-
+// ignore this
 $home = 'PHP/pages/dashboard/content/home.php';
 $account_settings = 'PHP/pages/dashboard/content/account-settings.php';;
 $friends = 'PHP/pages/dashboard/content/friends.php';
@@ -22,8 +23,6 @@ $data = mysqli_connect($host, $db_user, $db_password, $db);
 if ($data === false) { // Check Connection
     die("connection error");
 }
-
-
 
 
 # register
