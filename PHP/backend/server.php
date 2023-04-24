@@ -84,7 +84,7 @@ if (isset($_POST['login'])) {
  
     if (mysqli_num_rows($result) > 0) {
         if ($row["usertype"] == "user") {
-            header("location:logged.php");
+            header("location:index-logged.php");
         } elseif ($row["usertype"] == "admin") {
             $_SESSION["username"] = $username;
             header("location:adminhome.php");
