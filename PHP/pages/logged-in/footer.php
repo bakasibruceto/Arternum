@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div id="footer">
+  <footer id="cont">
+  <div id="footer">
     <a href="">Terms</a>
     <a href="">About-us</a>
     <a href="">References</a>
@@ -15,5 +16,7 @@
     <br>
     <h5>powerd by aternum</h5>
   </div>
+</footer>
+
 </body>
 </html>
