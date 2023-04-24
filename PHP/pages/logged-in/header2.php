@@ -11,16 +11,14 @@
 <body>
   <div id="header2">
     <div id="hov"></div>
-    <form action="#" method="GET">
-      <ul>
-        <li><a href="#" id="no">dashboard</a></li>
-        <li><a id="t">&nbsp;&nbsp;</a></li>
-        <li><a href="" id="no" type="submit" name="friends" >friends</a></li>
-        <li><a id="t">&nbsp;&nbsp;</a></li>
-        <li><a href="#" id="no">account settings</a></li>
-      </ul>
 
-    </form>
+    <ul>
+      <li><a href="index-dashboard.php" id="no">dashboard</a></li>
+      <li><a id="t">&nbsp;&nbsp;</a></li>
+      <li><a href="" id="no" type="submit" name="friends">friends</a></li>
+      <li><a id="t">&nbsp;&nbsp;</a></li>
+      <li><a href="index-account-settings.php" id="no">account settings</a></li>
+    </ul>
 
   </div>
 </body>

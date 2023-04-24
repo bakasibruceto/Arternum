@@ -1,11 +1,3 @@
-$(document).ready(function(){
-  $("#friends").click(function(){
-    $("#content").load("PHP\pages\logged-in\content\friends.php");
-  });
-});
-
-
-
 //Search Icon
 function openSearch() {
   document.getElementById("myOverlay").style.display = "block";
