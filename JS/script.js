@@ -7,7 +7,6 @@ function closeSearch() {
   document.getElementById("myOverlay").style.display = "none";
 }
 
-
 //Dropdown
 function menuToggle(){
   const toggleMenu = document.querySelector('#menu');
@@ -16,16 +15,15 @@ function menuToggle(){
 
 window.onscroll = function () { scrollFunction() };
 
-
 //Navbar on scroll
 function scrollFunction() {
 
   if ((document.body.scrollTop > 80)|| (document.documentElement.scrollTop > 80)) {
 
     //ProfileIcon
-    document.getElementById("avatar").style.height = "40px";
-    document.getElementById("avatar").style.width = "40px";
-    document.getElementById("avatar").style.marginTop = "-1px";
+    document.getElementById("avatar").style.height = "45px";
+    document.getElementById("avatar").style.width = "45px";
+    document.getElementById("avatar").style.marginTop = "-2px";
 
     //LogoIcon
     document.getElementById("logo").style.height = "40px";
@@ -45,16 +43,16 @@ function scrollFunction() {
     //dropdown
     document.getElementById("menu").style.top = "60px";
     document.getElementById("action").style.top = "60px";
-    document.getElementById("menu").style.right = "75px";
-    document.getElementById("action").style.right = "75px";
+    document.getElementById("menu").style.right = "85px";
+    document.getElementById("action").style.right = "85px";
+    document.getElementById("menu").style.top = "65px";
+    document.getElementById("action").style.top = "65px";
  
-  
-
   } else {
 
     //ProfileIcon
-    document.getElementById("avatar").style.height = "55px";
-    document.getElementById("avatar").style.width = "55px";
+    document.getElementById("avatar").style.height = "70px";
+    document.getElementById("avatar").style.width = "70px";
     document.getElementById("avatar").style.marginTop = "5px";
 
     //Search Icon
@@ -68,16 +66,15 @@ function scrollFunction() {
     document.getElementById("logo").style.height = "60px";
     document.getElementById("logo").style.width = "60px";
 
-
     //NavBar
     document.getElementById("wrapper").style.opacity = "0";
     document.getElementById("wrapper").style.padding = "10px 10px 80px 10px";
 
     //dropdown
-    document.getElementById("menu").style.top = "80px";
-    document.getElementById("action").style.top = "80px";
-    document.getElementById("menu").style.right = "85px";
-    document.getElementById("action").style.right = "85px";
+    document.getElementById("menu").style.top = "95px";
+    document.getElementById("action").style.top = "95px";
+    document.getElementById("menu").style.right = "95px";
+    document.getElementById("action").style.right = "95px";
   }
 
 
