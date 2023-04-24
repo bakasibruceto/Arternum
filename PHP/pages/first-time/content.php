@@ -21,7 +21,7 @@
       <h1>Arternum</h1>
     </div>
     <div id="sipad">
-      <h3>sign-up</h3>
+      <h3><a href="index-register.php">sign-up</a></h3>
     </div>
   </div>
 </body>
