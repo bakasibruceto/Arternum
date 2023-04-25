@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'custom';
-  src: url(Fonts/Torus-Regular.otf);
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
