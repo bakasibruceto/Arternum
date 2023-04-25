@@ -1,9 +1,10 @@
+@import "src/main.css";
 @import "src/first-time.css";
-@import "src/dropdown2.css";
-@import "src/fonts.css";
-@import "src/default.css";
+@import "src/sign-in.css";
+
 
 @font-face {
     font-family: 'custom';
-    src: url(Fonts/Torus-Regular.otf);
+    src: url(Fonts/Torus-SemiBold.otf);
 }
+
