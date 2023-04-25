@@ -17,11 +17,11 @@ if (!isset($_SESSION["username"])) {
 </head>
 
 <body>
-  <?php include('PHP/pages/admin/dashboard/navbar.php'); ?>
-  <?php include('PHP/pages/admin/dashboard/header.php'); ?>
-  <?php include('PHP/pages/admin/dashboard/header-dashboard.php'); ?>
-  <?php include('PHP/pages/admin/dashboard/content/home.php') ?>
-  <?php include('PHP/pages/admin/dashboard/footer.php'); ?>
+  <?php include('PHP/pages/user/dashboard/navbar.php'); ?>
+  <?php include('PHP/pages/user/dashboard/header.php'); ?>
+  <?php include('PHP/pages/user/dashboard/header-dashboard.php'); ?>
+  <?php include('PHP/pages/user/dashboard/content/home.php') ?>
+  <?php include('PHP/pages/user/dashboard/footer.php'); ?>
 </body>
 
 </html>

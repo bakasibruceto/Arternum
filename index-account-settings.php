@@ -7,7 +7,6 @@ if (!isset($_SESSION["username"])) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,13 +14,11 @@ if (!isset($_SESSION["username"])) {
   <link rel="stylesheet" href="CSS/logged.css">
   <script src="JS/script.js"></script>
 </head>
-
 <body>
-  <?php include('PHP/pages/admin/dashboard/navbar.php'); ?>
-  <?php include('PHP/pages/admin/dashboard/header.php'); ?>
-  <?php include('PHP/pages/admin/dashboard/header-dashboard.php'); ?>
-  <?php include('PHP/pages/admin/dashboard/content/home.php') ?>
-  <?php include('PHP/pages/admin/dashboard/footer.php'); ?>
+  <?php include('PHP/pages/user/dashboard/navbar.php'); ?>
+  <?php include('PHP/pages/user/dashboard/header.php'); ?>
+  <?php include('PHP/pages/user/dashboard/header-settings.php'); ?>
+  <?php include('PHP/pages/user/dashboard/content/account-settings.php')?>
+  <?php include('PHP/pages/user/dashboard/footer.php'); ?>
 </body>
-
 </html>
