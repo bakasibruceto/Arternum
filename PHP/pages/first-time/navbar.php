@@ -12,7 +12,7 @@
     <div id="drop">
       <div id="menu">
         <form actions="#" method="POST" autocomplete="off">
-        
+
           <p>Sign in To Proceed</p>
           <br>
           <input type="text" name="username" placeholder="username" required>
