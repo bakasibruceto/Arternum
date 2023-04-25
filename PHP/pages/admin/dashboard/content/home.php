@@ -10,34 +10,16 @@
 
 <body>
   <div id="content">
-    <h1>HOME</h1>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-      <br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br>
+    <h1>users activity</h1>
+    <br>
+    <p><i>*user activity table here*</i></p>
+    <br><br>
+    <h1>logs</h1>
+    <br>
+    <p><i>*admin logs*</i></p>
+    <br><br><br><br><br><br>
+      
   </div>
 </body>
 

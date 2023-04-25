@@ -16,10 +16,10 @@ if (!isset($_SESSION["username"])) {
   <script src="JS/script.js"></script>
 </head>
 <body>
-  <?php include('PHP/pages/user/dashboard/navbar.php'); ?>
-  <?php include('PHP/pages/user/dashboard/header.php'); ?>
-  <?php include('PHP/pages/user/dashboard/header-settings.php'); ?>
-  <?php include('PHP/pages/user/dashboard/content/account-settings.php')?>
-  <?php include('PHP/pages/user/dashboard/footer.php'); ?>
+  <?php include('PHP/pages/admin/dashboard/navbar.php'); ?>
+  <?php include('PHP/pages/admin/dashboard/header.php'); ?>
+  <?php include('PHP/pages/admin/dashboard/header-settings.php'); ?>
+  <?php include('PHP/pages/admin/dashboard/content/account-settings.php')?>
+  <?php include('PHP/pages/admin/dashboard/footer.php'); ?>
 </body>
 </html>

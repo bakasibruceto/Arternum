@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Aternum</title>
 </head>
 
 <body>

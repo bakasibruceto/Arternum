@@ -13,11 +13,11 @@
     <div id="hov"></div>
 
     <ul>
-      <li><a href="index-dashboard.php" id="no">dashboard</a></li>
+      <li><a href="index-admin-dashboard.php" id="no">dashboard</a></li>
       <li><a id="t">&nbsp;&nbsp;</a></li>
-      <li><a href="" id="no" type="submit" name="friends">friends</a></li>
+      <li><a href="" id="no" type="submit" name="friends">users</a></li>
       <li><a id="t">&nbsp;&nbsp;</a></li>
-      <li><a href="index-account-settings.php" id="no-isactive">account settings</a></li>
+      <li><a href="index-admin-account-settings.php" id="no-isactive">account settings</a></li>
     </ul>
 
   </div>
