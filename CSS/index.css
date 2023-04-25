@@ -1,0 +1,9 @@
+@import "src/first-time.css";
+@import "src/dropdown2.css";
+@import "src/fonts.css";
+@import "src/default.css";
+
+@font-face {
+    font-family: 'custom';
+    src: url(Fonts/Torus-SemiBold.otf);
+}
