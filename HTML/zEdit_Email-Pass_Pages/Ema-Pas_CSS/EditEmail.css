@@ -1,0 +1,68 @@
+body{
+    margin: 0%;
+    font-family: 'Raleway';
+    font-size: medium;
+    color: white;
+    background-color: rgb(137, 128, 176);
+}
+
+#leftpanel{
+    background-color: rgb(75, 68, 104);
+    height: 100%;
+    width: 24%;
+    position: fixed;
+}
+
+h1{
+    font-family: 'raleway';
+    font-size: x-large;
+    color: white;
+    padding-left: 10%;
+}
+
+
+.maindiv{
+    position: absolute;
+    top: 50%;
+    left: 46.8%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    min-height: 100px;
+    padding: 1rem;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+
+input[type=text], input[type=password] {
+	font-family: "raleway";
+	font-size: 18px;
+    color: white;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(171, 161, 212);
+    outline: none;
+    line-height: 1.50;
+    width: 200px;
+}
+
+hr{
+    border: 1px solid black;
+    width: 166.5%;
+}
+
+button{
+    word-spacing: 40px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    font-family: 'raleway';
+    font-size: 18px;
+    line-height: 1.50;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(104, 67, 255);
+    outline: none;
+    width: 150px;
+}
