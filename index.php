@@ -13,6 +13,6 @@
   <?php include('PHP/pages/first-time/header.php'); ?>
   <?php include('PHP/pages/first-time/content.php'); ?>
   <?php include('PHP/pages/first-time/footer.php'); ?>
-  <script src="JS/script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
