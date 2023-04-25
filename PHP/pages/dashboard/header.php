@@ -31,9 +31,6 @@
           </defs>
         </svg>
       </div>
-
     </div>
-
-  <script src="JS/script.js"></script>
 </body>
 </html>
