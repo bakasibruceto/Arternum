@@ -10,7 +10,7 @@
     <div id="container">
         <h1>Register</h1>
         <br><br><br><br>
-        <form actions="register.php" method="POST">
+        <form actions="#" method="POST">
             <?php include('PHP/backend/errors.php') ?>
             <div>
                 <label>username</label>

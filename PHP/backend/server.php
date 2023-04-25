@@ -55,7 +55,7 @@ if (isset($_POST["register"])) {
         $query = "insert into login (username, email, password, usertype) VALUES ('$username', '$email','$password','user')";
         mysqli_query($data, $query);
         $_SESSION['username'] = $username;
-        header('location: login.php');
+        header('location: index.php');
     }
 }
 
@@ -86,7 +86,7 @@ if (isset($_POST['login'])) {
             header("location:index-dashboard.php");
         } elseif ($row["usertype"] == "admin") {
             $_SESSION["username"] = $username;
-            header("location:adminhome.php");
+            header("location:index-admin-dashboard.php");
         }
         if ($row["username"] !== $username || $row["password"] !== $password) {
             array_push($errors, "Wrong userame/password combination");
