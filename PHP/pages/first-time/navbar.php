@@ -11,7 +11,7 @@
   <div id="action">
     <div id="drop">
       <div id="menu">
-        <form actions="#" method="POST" autocomplete="off">
+        <form actions="PHP/backend/server.php" method="POST" autocomplete="off">
 
           <p>Sign in To Proceed</p>
           <br>
@@ -33,7 +33,7 @@
         <li><a href="#">about us</a></li>
       </ul>
     </div>
-    <div id="sign" onclick="menuToggle()">
+    <div id="sign" onclick="menuToggle()" onclick="Tog()">
       <ul>
         <li>
           <p>sign-in

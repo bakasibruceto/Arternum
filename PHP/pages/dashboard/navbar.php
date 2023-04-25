@@ -29,7 +29,7 @@
             <div id="seticon"><a href="#Settings">Settings</a></div>
           </li>
           <li>
-            <div id="logicon"><a href="logout.php">Logout</a></div>
+            <div id="logicon"><a href="logout.php">Sign out</a></div>
           </li>
         </ul>
         <br>

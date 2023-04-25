@@ -65,7 +65,7 @@ if (isset($_POST["register"])) {
 
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
-    $password =$_POST['password'];
+    $password = $_POST['password'];
 
     //$password = md5($password);
     $sql = "select * from login where username ='" . $username . "'  and  password = '" . $password  . "'";
@@ -73,16 +73,19 @@ if (isset($_POST['login'])) {
     $result = mysqli_query($data, $sql);
     $row = mysqli_fetch_array($result);
 
-    $email = $row['email'] ;
-    $id = $row['id'];
-    $username = $row['username'];
 
-    $_SESSION["id"] = $id;
-    $_SESSION["email"] = $email;
-    $_SESSION["username"] = $username;
- 
+
     if (mysqli_num_rows($result) > 0) {
         if ($row["usertype"] == "user") {
+
+            $email = $row['email'];
+            $id = $row['id'];
+            $username = $row['username'];
+
+            $_SESSION["id"] = $id;
+            $_SESSION["email"] = $email;
+            $_SESSION["username"] = $username;
+            
             header("location:index-dashboard.php");
         } elseif ($row["usertype"] == "admin") {
             $_SESSION["username"] = $username;
@@ -94,7 +97,4 @@ if (isset($_POST['login'])) {
     } else {
         array_push($errors, "Wrong userame/password combination");
     }
-    
 }
-
-
