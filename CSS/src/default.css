@@ -3,11 +3,11 @@
   src: url(Fonts/Torus-Regular.otf);
 }
 
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family:'custom';
   }
   
   
@@ -90,6 +90,16 @@
     margin-bottom: 50px;
     color: white;
   }
+
+  #header2 #no-isactive{
+    overflow: visible;
+    border-bottom: 4px solid #5638ac;
+    padding-bottom: 13px;
+    margin-bottom: 50px;
+    color: white;
+  }
+
+
 
   #header2 #active{
     overflow: visible;

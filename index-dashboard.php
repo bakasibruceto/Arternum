@@ -19,7 +19,7 @@ if (!isset($_SESSION["username"])) {
 <body>
   <?php include('PHP/pages/dashboard/navbar.php'); ?>
   <?php include('PHP/pages/dashboard/header.php'); ?>
-  <?php include('PHP/pages/dashboard/header2.php'); ?>
+  <?php include('PHP/pages/dashboard/header-dashboard.php'); ?>
   <?php include($content) ?>
   <?php include('PHP/pages/dashboard/footer.php'); ?>
 

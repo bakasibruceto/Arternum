@@ -15,11 +15,11 @@ if (!isset($_SESSION["username"])) {
   <script src="JS/script.js"></script>
 </head>
 <body>
-  <?php include('PHP/pages/logged-in/navbar.php'); ?>
-  <?php include('PHP/pages/logged-in/header.php'); ?>
-  <?php include('PHP/pages/logged-in/header2.php'); ?>
+  <?php include('PHP/pages/dashboard/navbar.php'); ?>
+  <?php include('PHP/pages/dashboard/header.php'); ?>
+  <?php include('PHP/pages/dashboard/header-settings.php'); ?>
   <?php include($account_settings)?>
-  <?php include('PHP/pages/logged-in/footer.php'); ?>
+  <?php include('PHP/pages/dashboard/footer.php'); ?>
 </body>
 
 </html>
