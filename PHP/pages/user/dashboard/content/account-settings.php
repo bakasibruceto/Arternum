@@ -9,36 +9,17 @@
 </head>
 
 <body>
-  <div id="content">
-  <h1>Settings</h1>
-
- 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-      <br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br>
+<div id="content">
+    <div class="container">
+      <div id="col" class="item item-1">Avatr</div>
+      <div id="contents" class="item item-2">
+        <form action="#" method="POST">
+          <img src="CSS/images/avatar.png" class="av" alt="">
+          <br><br>
+          <button>upload photo</button>
+        </form>
+      </div>
+    </div>
   </div>
 </body>
 
