@@ -5,9 +5,11 @@
   font-family: 'custom';
 }
 
+
 /* .con {
   display: flex;
 } */
+
 
 
 html {
@@ -41,6 +43,7 @@ body {
 
 
 
+
 .content {
 
   width: 100%;
@@ -67,8 +70,6 @@ body {
   margin-right: 130px;
 
 }
-
-
 
 #header {
   overflow: hidden;
