@@ -18,10 +18,13 @@ if (!isset($_SESSION["username"])) {
 </head>
 
 <body>
-  <?php include('PHP/pages/user/dashboard/navbar.php'); ?>
-  <?php include('PHP/pages/user/dashboard/header.php'); ?>
-  <?php include('PHP/pages/user/dashboard/header-dashboard.php'); ?>
-  <?php include('PHP/pages/user/dashboard/content/home.php') ?>
+  <div id="whole-page">
+    <?php include('PHP/pages/user/dashboard/navbar.php'); ?>
+    <?php include('PHP/pages/user/dashboard/header.php'); ?>
+    <?php include('PHP/pages/user/dashboard/header-dashboard.php'); ?>
+    <?php include('PHP/pages/user/dashboard/content/home.php') ?>
+
+  </div>
   <?php include('PHP/pages/user/dashboard/footer.php'); ?>
 </body>
 

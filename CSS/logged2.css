@@ -8,16 +8,35 @@
     src: url(Fonts/Torus-SemiBold.otf);
 }
 
+#c{
+    padding: 2px;
+}
+
 #content{
     padding: 0;
-    background-color: #222242;
 }
+
+#contents{
+    width: 85%;
+    background-color: rgb(36, 32, 32);
+}
+
+#col{
+    width: 25%;
+   
+}
+
+#col p{
+    font-size: 25px;
+    text-align: center;
+}
+
+
 
 .container{
     display: flex;
 }
 
-#col{
-    background-color: #221f2e;
+.item-2{
+    flex-grow: 1    ;
 }
-
