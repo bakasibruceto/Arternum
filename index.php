@@ -1,6 +1,7 @@
 <?php include('PHP/backend/server.php')  ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,15 @@
   <link rel="stylesheet" href="CSS/index.css">
   <script src="JS/script.js"></script>
 </head>
+
 <body>
-  <?php include('PHP/pages/first-encounter/navbar.php'); ?>
-  <?php include('PHP/pages/first-encounter/header.php'); ?>
-  <?php include('PHP/pages/first-encounter/content.php'); ?>
-  <?php include('PHP/pages/first-encounter/footer.php'); ?>
+  <div id="whole-page">
+    <?php include('PHP/pages/first-encounter/navbar.php'); ?>
+    <?php include('PHP/pages/first-encounter/header.php'); ?>
+    <?php include('PHP/pages/first-encounter/content.php'); ?>
+    <?php include('PHP/pages/first-encounter/footer.php'); ?>
+  </div>
+
 </body>
+
 </html>
