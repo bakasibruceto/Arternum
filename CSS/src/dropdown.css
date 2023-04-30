@@ -12,13 +12,15 @@
     width: 150px;
     box-sizing: 0 5px 25px rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    
-    /*not clicked*/
+
+}
+
+/*not clicked*/
+#action #menu {
     visibility: hidden;
     opacity: 0;
     border: 2px black;
     color: white;
- 
 }
 
 /*clicked*/
@@ -31,6 +33,7 @@
 
 }
 
+/* dropdown animation */
 @keyframes translateY {
     0% { opacity: 0; transform: translateY(-60px); }
 
