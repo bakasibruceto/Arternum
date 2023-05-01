@@ -19,5 +19,5 @@
   - ~~Change Profile Picture~~ (04-30-2023)
   - Change UserName
   - Change Email
-  - Change Password
+  - ~~Change Password~~ (05-02-2023)
   - SMTP
