@@ -43,24 +43,20 @@
         <p>avatar</p>
       </div>
       <div id="contents" class="item item-2">
-        <form action="#" method="POST">
+        <form action="#" method="POST" enctype="multipart/form-data">
           <ol>
             <ul>
-              <img src="CSS/images/avatar.png" class="av" alt="">
+              <?php include ('PHP/backend/update-avatar.php')?>
             </ul>
             <ul>
               <p>username</p>
-              <button>upload photo</button>
+              <input type="file" name="update_image" accept="image/jpg, image/jpeg, image/png" class="box">
+              <input type="submit" value="update profile" name="update_profile">
             </ul>
             <ul>
               <p>username</p>
-              <input type="text">
             </ul>
           </ol>
-
-
-          <!-- 
-          <button>upload photo</button> -->
         </form>
       </div>
     </div>

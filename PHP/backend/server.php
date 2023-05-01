@@ -8,22 +8,17 @@ $db_password = "";
 $db = "user"; #database name
 $username = "";
 $email = "";
+$image="";
+$password="";
 $errors = array();
-$id;
+$id="";
 // login = table name
-
-// ignore this
-$home = 'PHP/pages/dashboard/content/home.php';
-$account_settings = 'PHP/pages/dashboard/content/account-settings.php';;
-$friends = 'PHP/pages/dashboard/content/friends.php';
-$content = $home;
 
 # connect to database
 $data = mysqli_connect($host, $db_user, $db_password, $db);
 if ($data === false) { // Check Connection
     die("connection error");
 }
-
 
 # register
 if (isset($_POST["register"])) {
@@ -59,28 +54,22 @@ if (isset($_POST["register"])) {
     }
 }
 
-
-
 # login
 
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
-    $password =$_POST['password'];
+    $password = $_POST['password'];
 
     //$password = md5($password);
     $sql = "select * from login where username ='" . $username . "'  and  password = '" . $password  . "'";
 
     $result = mysqli_query($data, $sql);
     $row = mysqli_fetch_array($result);
-
-    $email = $row['email'] ;
+    $image = $row['image'];
+    $email = $row['email'];
     $id = $row['id'];
-    $username = $row['username'];
 
-    $_SESSION["id"] = $id;
-    $_SESSION["email"] = $email;
-    $_SESSION["username"] = $username;
- 
+
     if (mysqli_num_rows($result) > 0) {
         if ($row["usertype"] == "user") {
             header("location:index-dashboard.php");
@@ -91,10 +80,43 @@ if (isset($_POST['login'])) {
         if ($row["username"] !== $username || $row["password"] !== $password) {
             array_push($errors, "Wrong userame/password combination");
         }
+
+        $_SESSION["id"] = $id;
+        $_SESSION["email"] = $email;
+        $_SESSION["username"] = $username;
+        $_SESSION["password"] = $password;
+       
+     
     } else {
         array_push($errors, "Wrong userame/password combination");
     }
-    
+  
 }
 
+// update profile
+if (isset($_POST['update_profile'])) {
+    $id = $_SESSION['id'];
+    $update_image = $_FILES['update_image']['name'];
+    $update_image_size = $_FILES['update_image']['size'];
+    $update_image_tmp_name = $_FILES['update_image']['tmp_name'];
+    $update_image_folder = 'uploaded_img/' . $update_image;
+    $sql = "update login set image = '" . $update_image . "' where id ='" . $id .  "'";
+    
+    if (!empty($update_image)) {
+        if ($update_image_size > 2000000) {
+            $message[] = 'image is too large';
+        } else {
+            $image_update_query = mysqli_query($data, $sql);
+            if ($image_update_query) {
+                move_uploaded_file($update_image_tmp_name, $update_image_folder);
+            }
+            $message[] = 'image updated succssfully!';
+        }
+    }
+}
 
+//Temporary *need it's own file* tinatamad pako HAHAHHA
+$sql = "select * from login where id ='" . $id . "'";
+$result = mysqli_query($data, $sql);
+$row = mysqli_fetch_array($result);
+$id = $_SESSION['id'];

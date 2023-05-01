@@ -12,10 +12,10 @@
     <div id="wrapper"></div>
     <div id="drop">
       <div id="menu">
-        <h3><?php echo $_SESSION["username"];?></h3>
-        <p><?php echo $_SESSION["email"];?></p>
+        <h3><?php echo $_SESSION["username"]; ?></h3>
+        <p><?php echo $_SESSION["email"]; ?></p>
         <br>
-        <ul>
+        <ul class="item">
           <li>
             <div id="proficon"><a href="#profile">My Profile</a></div>
           </li>
@@ -37,7 +37,7 @@
     </div>
     <div id="container">
       <div id="avatar" onclick="menuToggle();">
-        <img src="CSS/images/avatar.png">
+        <?php include ('PHP/backend/update-avatar.php')?>
       </div>
       <a href="#default">
         <div id="logo" data-tooltip="ye"></div>
@@ -56,7 +56,7 @@
         </div>
       </div>
     </div>
-  </div>  
+  </div>
 </body>
 
 </html>
