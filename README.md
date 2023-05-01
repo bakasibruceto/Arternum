@@ -10,12 +10,13 @@
 
 ## Week 1.1 - UI Part 1;
 ### April 20 - ? 2023
-  - Login and SignUp Ui
-  - User Crude UI
+  - ~~Sign-in~~ (04-24-2023)
+  - ~~User Crude UI~~ (04-28-2023)
+  - Sign-up
 
 ## Week 2 - Back End Part 2
 - User Profile Crude
-  - Change Profile Picture
+  - ~~Change Profile Picture~~ (04-30-2023)
   - Change UserName
   - Change Email
   - Change Password
