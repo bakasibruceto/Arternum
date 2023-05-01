@@ -26,9 +26,9 @@ body {
 
 #whole-page{
   position: relative;
-  display: flex;
   flex-direction: column;
   min-height: 100vh;
+ 
 }
 
 #content {
@@ -131,8 +131,10 @@ body {
   border-bottom: 4px solid #5638ac;
   padding-bottom: 5px;
   margin-bottom: 50px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
+
+/* 
 
 #header2 #no-isactive {
   overflow: visible;
@@ -140,17 +142,17 @@ body {
   padding-bottom: 5px;
   margin-bottom: 50px;
   color: white;
-}
-
-
-
+} 
+ 
 #header2 #active {
   overflow: visible;
   border-bottom: 4px solid #5638ac;
-
+  padding-bottom: 5px;
   margin-bottom: 50px;
   color: white;
 }
+
+*/
 
 #footer {
 

@@ -1,4 +1,8 @@
-<?php include('PHP/backend/server.php'); ?>
+<?php 
+include('PHP/backend/server.php'); 
+include('PHP/backend/getdata.php');
+
+?>
 <?php
 # cant access page without loging in
 if (!isset($_SESSION["username"])) {

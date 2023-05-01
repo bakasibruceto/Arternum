@@ -9,6 +9,32 @@
 }
 
 
+/*profile*/
+ #po #ava {
+
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border: 50%;
+    overflow: hidden;
+    margin-right: 125px;
+    margin-top: 4px;
+    transition: 0.3s;
+    border-radius: 50%;
+    cursor: pointer;
+  
+  } 
+  
+  /*profile*/
+#po #ava img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+  }
 
 
 #content{

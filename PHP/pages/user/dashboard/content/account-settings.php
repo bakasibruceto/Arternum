@@ -22,11 +22,15 @@
               <input type="text">
             </ul>
             <ul>
-              <p>username</p>
+              <p>first name</p>
               <input type="text">
             </ul>
             <ul>
-              <p>username</p>
+              <p>last name</p>
+              <input type="text">
+            </ul>
+            <ul>
+              <p>bio</p>
               <input type="text">
             </ul>
           </ol>
@@ -36,8 +40,6 @@
   </div>
   <div id="c"></div>
   <div id="content">
-
-
     <div class="container">
       <div id="col" class="item item-1">
         <p>avatar</p>
@@ -46,7 +48,10 @@
         <form action="#" method="POST" enctype="multipart/form-data">
           <ol>
             <ul>
-              <?php include ('PHP/backend/update-avatar.php')?>
+              <div id="po">
+                <?php //include('PHP/backend/update-avatar.php') ?>
+                <img id="ava" src="uploaded_img/10.png">
+              </div>
             </ul>
             <ul>
               <p>username</p>
@@ -60,7 +65,6 @@
         </form>
       </div>
     </div>
-    
   </div>
   <div id="c"></div>
   <div id="content">
@@ -72,15 +76,15 @@
         <form action="#" method="POST">
           <ol>
             <ul>
-              <p>username</p>
+              <p>current password</p>
+              <input type="password">
+            </ul>
+            <ul>
+              <p>new email</p>
               <input type="text">
             </ul>
             <ul>
-              <p>username</p>
-              <input type="text">
-            </ul>
-            <ul>
-              <p>username</p>
+              <p>email confirmation</p>
               <input type="text">
             </ul>
           </ol>
@@ -95,26 +99,26 @@
         <p>password</p>
       </div>
       <div id="contents" class="item item-2">
-        <form action="#" method="POST">
+        <form action="#" method="POST" enctype="multipart/form-data">
           <ol>
             <ul>
-              <p>username</p>
-              <input type="text">
+              <p>current password</p>
+              <input type="password" name="update_pass" placeholder="<?php echo $password?>" class="box">
             </ul>
             <ul>
-              <p>username</p>
-              <input type="text">
+              <p>new password</p>
+              <input type="password" name="new_pass" placeholder="enter new password" class="box">
             </ul>
             <ul>
-              <p>username</p>
-              <input type="text">
+              <p>password confirmation</p>
+              <input type="password" name="confirm_pass" placeholder="confirm new password" class="box">
+              <input type="submit" value="update password" name="update_passs">
             </ul>
           </ol>
         </form>
       </div>
     </div>
   </div>
-  
   <div id="c"><br><br><br></div>
 </body>
 

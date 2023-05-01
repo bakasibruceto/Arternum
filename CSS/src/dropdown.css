@@ -10,23 +10,34 @@
     padding: 10px;
     background: #292727;
     width: 150px;
-    box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+    box-sizing: 0 5px 25px rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    
-    /*not clicked*/
+
+}
+
+/*not clicked*/
+#action #menu {
     visibility: hidden;
     opacity: 0;
     border: 2px black;
     color: white;
-    transition: 0.3s;
- 
 }
 
 /*clicked*/
 #action #menu.active
 {
+    transform-origin: top center;
+    animation: translateY 0.3s ease-in-out forwards;
     visibility: visible;
     opacity: 1;
+
+}
+
+/* dropdown animation */
+@keyframes translateY {
+    0% { opacity: 0; transform: translateY(-60px); }
+
+    100% { opacity: 1; transform: translateY(0px); }
 }
 
 #action #menu h3
@@ -43,16 +54,21 @@
   
 }
 
-#action #menu a{
-    
-    text-decoration: none;
-    margin-left: 27px;
-    color: rgb(155, 59, 245);
-   
-}
-
-
 #action #menu ul{
     list-style-type: none;
 }
 
+#menu a{
+        padding-left: 5px;
+        text-decoration: none;
+        margin-left: 28px;
+        color: rgb(155, 59, 245);
+        
+    }
+
+#menu .link:hover {
+    border-left: 4px solid #5638ac;
+    overflow: visible;
+    color: rgb(255, 252, 252);
+    margin-left: 24.5px;
+    }

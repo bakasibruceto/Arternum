@@ -1,4 +1,7 @@
-<?php include('PHP/backend/server.php'); ?>
+<?php 
+include('PHP/backend/server.php'); 
+include('PHP/backend/getdata.php');
+?>
 <?php
 # cant access page without loging in
 if (!isset($_SESSION["username"])) {
@@ -19,6 +22,7 @@ if (!isset($_SESSION["username"])) {
 
 <body>
   <div id="whole-page">
+    <?php echo $message ?>
     <?php include('PHP/pages/user/dashboard/navbar.php'); ?>
     <?php include('PHP/pages/user/dashboard/header.php'); ?>
     <?php include('PHP/pages/user/dashboard/header-settings.php'); ?>
