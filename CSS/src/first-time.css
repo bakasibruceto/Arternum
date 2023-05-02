@@ -70,29 +70,18 @@
     float: right;
     padding: 12px;
     background-color: blueviolet;
-    margin-top: -100px;
-    margin-right: 300px;
     cursor: pointer;
 }
 
-#intro{
+#content #intro{
     float: right;
 }
 
 #intro h1{
     color: yellow;
-    padding-top: 10px;
-    margin-left: 35px;
+  
 }
 
-#intro h2{
-    margin-top: -220px;
-    margin-right: 235px;
-}
-
-#intro h4{
-    margin-left: 69px;
-}
 
 
 

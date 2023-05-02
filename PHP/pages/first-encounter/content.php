@@ -10,19 +10,47 @@
 
 <body>
   <div id="content">
-    <div id="logopad">
-      <div id="hugelogo">
-        <img src="CSS/images/sample.png">
+    <div class="container">
+      <div id="col" class="item item-1">
+        <div id="logopad">
+          <div id="hugelogo">
+            <img src="CSS/images/sample.png">
+          </div>
+        </div>
+      </div>
+      <div id="contents" class="item item-2">
+        <div id="intro">
+          <br><br><br><br><br>
+          <h2>Start your Journey</h2>
+          <h4>here at</h4>
+          <h1>Arternum</h1>
+          <a href="index-register.php">
+            <button id="sipad">
+              <h3>sign-up</h3>
+            </button>
+          </a>
+        </div>
+
       </div>
     </div>
-    <div id="intro">
+  </div>
+  <!-- <h2>Start your Journey</h2>
+  <h4>here at</h4>
+  <h1>Arternum</h1>
+  <div id="intro">
+    <h2>Start your Journey</h2>
+    <h4>here at</h4>
+    <h1>Arternum</h1>
+  </div> -->
+
+  <!-- <div id="intro">
       <h2>Start your Journey</h2>
       <h4>here at</h4>
       <h1>Arternum</h1>
     </div>
     <div id="sipad">
       <h3><a href="index-register.php">sign-up</a></h3>
-    </div>
+    </div> -->
   </div>
 
 </body>
