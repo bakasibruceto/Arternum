@@ -11,6 +11,7 @@
 
 /*profile*/
  #po #ava {
+
     position: relative;
     width: 70px;
     height: 70px;
@@ -19,6 +20,8 @@
     margin-right: 125px;
     margin-top: 4px;
     transition: 0.3s;
+   
+  
   } 
   
   /*profile*/
