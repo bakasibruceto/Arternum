@@ -95,8 +95,8 @@ if (isset($_POST['login'])) {
   
 }
 
-// update profile
-if (isset($_POST['update_profile'])) {
+// update avatar
+if (isset($_POST['update_avatar'])) {
     $id = $_SESSION['id'];
     $update_image = $_FILES['update_image']['name'];
     $update_image_size = $_FILES['update_image']['size'];
@@ -106,13 +106,13 @@ if (isset($_POST['update_profile'])) {
     //Change Avatar
     if (!empty($update_image)) {
         if ($update_image_size > 2000000) {
-            $message[] = 'image is too large';
+            $message = 'image is too large';
         } else {
             $image_update_query = mysqli_query($data, $sql);
             if ($image_update_query) {
                 move_uploaded_file($update_image_tmp_name, $update_image_folder);
             }
-            //$message[] = 'image updated succssfully!';
+            $message = 'image updated succssfully!';
         }
     }
 }

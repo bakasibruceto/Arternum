@@ -1,5 +1,5 @@
 <?php 
-include('PHP/backend/server.php'); 
+include('PHP/backend/config.php'); 
 include('PHP/backend/getdata.php');
 ?>
 <?php
