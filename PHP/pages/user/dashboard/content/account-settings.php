@@ -49,8 +49,8 @@
           <ol>
             <ul>
               <div id="po">
-                <?php //include('PHP/backend/update-avatar.php') ?>
-                <img id="ava" src="uploaded_img/10.png">
+                <?php include('PHP/backend/update-avatar.php') ?>
+                <!-- <img id="ava" src="uploaded_img/10.png"> -->
               </div>
             </ul>
             <ul>
