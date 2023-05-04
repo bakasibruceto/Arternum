@@ -17,19 +17,19 @@
         <br>
         <ul class="item">
           <li>
-            <div id="proficon"><a href="#profile">My Profile</a></div>
+            <div class="link"><a href="#profile">My Profile</a></div>
           </li>
           <li>
-            <div id="editicon"><a href="#edit-profile">Edit Profile</a></div>
+            <div class="link"><a href="#edit-profile">Edit Profile</a></div>
           </li>
           <li>
-            <div id="inboxicon"><a href="#Inbox">Inbox</a></div>
+            <div class="link"><a href="#Inbox">Inbox</a></div>
           </li>
           <li>
-            <div id="seticon"><a href="#Settings">Settings</a></div>
+            <div class="link"><a href="#Settings">Settings</a></div>
           </li>
           <li>
-            <div id="logicon"><a href="logout.php">Logout</a></div>
+            <div class="link"><a href="logout.php">Logout</a></div>
           </li>
         </ul>
         <br>

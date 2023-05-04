@@ -1,7 +1,6 @@
-<?php 
-include('PHP/backend/server.php'); 
+<?php
+include('PHP/backend/server.php');
 include('PHP/backend/getdata.php');
-
 ?>
 <?php
 # cant access page without loging in
@@ -19,6 +18,27 @@ if (!isset($_SESSION["username"])) {
   <title>Aternum</title>
   <link rel="stylesheet" href="CSS/logged.css">
   <script src="JS/script.js"></script>
+
+  <style>
+    #content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      min-height: 100vh;
+    }
+
+    .alb {
+      width: 200px;
+      height: 200px;
+      padding: 5px;
+    }
+
+    .alb img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 
 <body>

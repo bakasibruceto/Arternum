@@ -56,7 +56,7 @@
             <ul>
               <p>username</p>
               <input type="file" name="update_image" accept="image/jpg, image/jpeg, image/png" class="box">
-              <input type="submit" value="update profile" name="update_avatar">
+              <input type="submit" value="update profile" name="update_profile">
             </ul>
             <ul>
               <p>username</p>

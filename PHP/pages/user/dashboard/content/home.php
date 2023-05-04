@@ -11,35 +11,34 @@
 <body>
   <div id="content">
     <h1>HOME</h1>
+    
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
+    <?php if (isset($_GET['error'])) : ?>
+      <p><?php echo $_GET['error']; ?></p>
+    <?php endif ?>
+    <form action="upload_image.php" method="post" enctype="multipart/form-data">
+
+      <input type="file" name="my_image">
+
+      <input type="submit" name="submit" value="Upload">
+
+    </form>
+
+    <?php 
+          $sql = "SELECT * FROM uploaded_image ORDER BY id DESC";
+          $res = mysqli_query($data,  $sql);
+
+          if (mysqli_num_rows($res) > 0) {
+          	while ($images = mysqli_fetch_assoc($res)) {  ?>
+             
+             <div class="alb">
+             	<img src="uploaded_image/<?=$images['image']?>">
+             </div>
+          		
+    <?php } }?>
   </div>
   <div id="c"><br><br><br></div>
-  
+
 </body>
 
 </html>
