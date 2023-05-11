@@ -11,7 +11,9 @@ if (!isset($_SESSION["id"])) {
 
 <head>
 	<title>View</title>
+	<link rel="stylesheet" href="CSS/index.css">
 	<link rel="stylesheet" href="CSS/logged.css">
+	
 	<script src="JS/script.js"></script>
 </head>
 
@@ -19,7 +21,7 @@ if (!isset($_SESSION["id"])) {
 	<div id="whole-page">
 		<?php include "PHP/pages/default/navbar.php" ?>
 		<?php include "PHP/pages/user/profile/header.php" ?>
-		<?php include "PHP/pages/user/nav/header-dashboard.php" ?>
+		<?php include "PHP/pages/user/profile/header-info.php" ?>
 		<?php include "PHP/pages/user/profile/profile.php" ?>
 		<?php include "PHP/pages/default/footer.php" ?>
 	</div>

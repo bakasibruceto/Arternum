@@ -9,36 +9,19 @@
 </head>
 
 <body>
-  <div id="content">
-  <h1>Profile</h1>
+<div id="content">
+    <div class="container">
+      <div id="col" class="item item-1">
+        <div id="logopad">
+          <div id="hugelogo">
+            <img src="CSS/images/sample.png">
+          </div>
+        </div>
+      </div>
+      <div id="contents" class="item item-2">
 
- 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptatibus recusandae eius odit laboriosam
-      quam.
-      Asperiores, quos dolor nam laboriosam distinctio vel, sapiente blanditiis maiores aut accusamus quaerat,
-      suscipit
-      hic.</p>
-      <br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br>
+      </div>
+    </div>
   </div>
 </body>
 
