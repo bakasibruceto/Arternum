@@ -32,7 +32,7 @@ if (isset($_POST["register"])) {
         array_push($errors, "The two passwords do not match");
     }
     // check database if username does not exist
-    $user_check_query = "select * from login where username='" . $username . "' or email ='" . $email . "'limit 1";
+    $user_check_query = "SELECT * FROM login WHERE username='" . $username . "' or email ='" . $email . "'limit 1";
     $result = mysqli_query($data, $user_check_query);
     $user = mysqli_fetch_assoc($result);
 
@@ -49,7 +49,7 @@ if (isset($_POST["register"])) {
     if (count($errors) == 0) {
         $password = $password_1;
         $password = md5($password);
-        $query = "insert into login (username, email, password, usertype) VALUES ('$username', '$email','$password','user')";
+        $query = "INSERT INTO login (username, email, password, usertype) VALUES ('$username', '$email','$password','user')";
         mysqli_query($data, $query);
         $_SESSION['username'] = $username;
         header('location: index.php');
@@ -63,7 +63,7 @@ if (isset($_POST['login'])) {
     $password = $_POST['password'];
 
     $password = md5($password);
-    $sql = "select * from login where username ='" . $username . "'  and  password = '" . $password  . "'";
+    $sql = "SELECT * FROM login WHERE username ='" . $username . "'  AND  password = '" . $password  . "'";
     $result = mysqli_query($data, $sql);
     $row = mysqli_fetch_array($result);
 

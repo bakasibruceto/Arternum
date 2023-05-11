@@ -1,6 +1,6 @@
 <?php
 
-$sql = "select * from login where id ='" . $id . "'";
+$sql = "SELECT * FROM login WHERE id ='" . $id . "'";
 $result = mysqli_query($data, $sql);
 $row = mysqli_fetch_array($result);
 $image = $row['image'];

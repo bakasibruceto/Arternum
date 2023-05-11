@@ -11,6 +11,7 @@ if (!isset($_SESSION["id"])) {
 
 <head>
 	<title>View</title>
+	<link rel="stylesheet" href="CSS/index.css">
 	<link rel="stylesheet" href="CSS/logged.css">
 	<script src="JS/script.js"></script>
 </head>

@@ -20,7 +20,7 @@ if (isset($_POST['update_passs'])) {
       } elseif ($new_pass != $confirm_pass) {
          $message = 'confirm password not matched!';
       } else {
-         $sql = "update login set password = '" . $confirm_pass . "' WHERE id = '" . $id . "'";
+         $sql = "UPDATE login SET password = '" . $confirm_pass . "' WHERE id = '" . $id . "'";
          $result = mysqli_query($data, $sql);
          $message = 'password updated successfully!';
       }
@@ -40,7 +40,7 @@ if (isset($_POST['update_email'])) {
       } elseif ($new_email != $confirm_email) {
          $message = 'confirm email not matched!';
       } else {
-         $sql = "update login set email = '" . $confirm_email . "' WHERE id = '" . $id . "'";
+         $sql = "UPDATE login SET email = '" . $confirm_email . "' WHERE id = '" . $id . "'";
          $result = mysqli_query($data, $sql);
          $message = 'email updated successfully!';
       }
