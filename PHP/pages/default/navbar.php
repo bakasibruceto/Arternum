@@ -20,13 +20,10 @@
             <div class="link"><a href="index-profile.php">My Profile</a></div>
           </li>
           <li>
-            <div class="link"><a href="index-account-settings.php">Edit Profile</a></div>
-          </li>
-          <li>
             <div class="link"><a href="#Inbox">Inbox</a></div>
           </li>
           <li>
-            <div class="link"><a href="#Settings">Settings</a></div>
+            <div class="link"><a href="index-account-settings.php">Settings</a></div>
           </li>
           <li>
             <div class="link"><a href="logout.php">Logout</a></div>
