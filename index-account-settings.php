@@ -22,12 +22,13 @@ if (!isset($_SESSION["username"])) {
 
 <body>
   <div id="whole-page">
-    <?php echo $message ?>
-    <?php include('PHP/pages/user/dashboard/navbar.php'); ?>
-    <?php include('PHP/pages/user/dashboard/header.php'); ?>
-    <?php include('PHP/pages/user/dashboard/header-settings.php'); ?>
-    <?php include('PHP/pages/user/dashboard/content/account-settings.php') ?>
-    <?php include('PHP/pages/user/dashboard/footer.php'); ?>
+    
+    <?php
+        include 'PHP/pages/default/navbar.php';
+        include 'PHP/pages/default/header.php';
+        include 'PHP/pages/user/nav/header-settings.php';
+        include 'PHP/pages/user/content/account-settings.php';
+        include "PHP/pages/default/footer.php"; ?>
   </div>
 </body>
 

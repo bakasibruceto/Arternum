@@ -7,3 +7,37 @@
     font-family: 'custom';
     src: url(Fonts/Torus-SemiBold.otf);
 }
+
+.grid-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-wrapper .alb img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, max(200px, 1px));
+
+    grid-auto-flow: dense;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.alb:hover img {
+    opacity: 0.3;
+} 
+

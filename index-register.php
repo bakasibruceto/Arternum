@@ -1,47 +1,31 @@
-<?php include('PHP/backend/server.php') ?>
+<?php 
+include "PHP/backend/db_conn.php" ; 
+
+if (isset($_SESSION["id"])) {
+    header("location: index-dashboard.php");
+}
+?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aternum</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <script src="JS/script.js"></script>
 </head>
 
 <body>
-    <div id="container">
-        <h1>Register</h1>
-        <br><br><br><br>
-        <form actions="#" method="POST">
-            <?php include('PHP/backend/errors.php') ?>
-            <div>
-                <label>username</label>
-                <input type="text" name="username" required>
-            </div>
-            <br><br>
-            <div>
-                <label>email</label>
-                <input type="email" name="email" value="<?php echo $email; ?>">
-            </div>
-            <br><br>
-            <div>
-                <label>password</label>
-                <input type="password" name="password_1" required>
-            </div>
-            <br><br>
-            <div>
-                <label>confirm password</label>
-                <input type="password" name="password_2" required>
-            </div>
-            <br><br>
-            <div>
-                <button type="submit" class="btn" name="register">register</button>
-            </div>
-            <br><br>
-            <div>
-                <a href="index.php"><input type="button" value="Login"></a>
-            </div>
-        </form>
+    <div id="whole-page">
+        <?php
+        include 'PHP/pages/first-encounter/navbar.php';
+        include 'PHP/pages/first-encounter/header.php';
+        include 'PHP/pages/first-encounter/content-reg.php';
+        include "PHP/pages/default/footer.php"
+        ?>
     </div>
-
 </body>
 
 </html>
