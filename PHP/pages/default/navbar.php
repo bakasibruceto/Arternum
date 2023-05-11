@@ -34,14 +34,14 @@
     </div>
     <div id="container">
       <div id="avatar" onclick="menuToggle();">
-        <?php include ('PHP/backend/update-avatar.php')?>
+        <?php include('PHP/backend/update-avatar.php') ?>
       </div>
       <a href="#default">
-        <div id="logo" data-tooltip="ye"></div>
+        <div id="logo" data-tooltip="ye"><img id="logo" src="CSS/images/sample.png" alt=""></div>
       </a>
       <div id="navbar"></div>
       <a href="#Search">
-        <div id="search" data-tooltip="Search" onclick="openSearch()"></div>
+        <div id="search" data-tooltip="Search" onclick="openSearch()"><img id ="search"src="CSS/images/search.png" alt=""></div>
       </a>
       <div id="myOverlay" class="overlay">
         <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
@@ -51,6 +51,12 @@
             <button type="submit"></button>
           </form>
         </div>
+      </div>
+      <div id="nav">
+        <ul>
+          <li><a href="index-dashboard.php">home</a></li>
+          <li><a href="#">about us</a></li>
+        </ul>
       </div>
     </div>
   </div>
