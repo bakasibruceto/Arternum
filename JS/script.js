@@ -1,11 +1,11 @@
-//Search Icon
-function openSearch() {
-  document.getElementById("myOverlay").style.display = "block";
-}
+// //Search Icon
+// function openSearch() {
+//   document.getElementById("myOverlay").style.display = "block";
+// }
 
-function closeSearch() {
-  document.getElementById("myOverlay").style.display = "none";
-}
+// function closeSearch() {
+//   document.getElementById("myOverlay").style.display = "none";
+// }
 
 //Dropdown
 function menuToggle(){
@@ -28,9 +28,12 @@ function scrollFunction() {
     //LogoIcon
     document.getElementById("logo").style.height = "40px";
     document.getElementById("logo").style.width = "40px";
+    document.getElementById("logo").style.marginTop = "0.5px";
+    document.getElementById("tit").style.marginTop = "5px";
+ 
 
-    //Search Icon
-    document.getElementById("search").style.marginTop = "1%";
+    // //Search Icon
+    // document.getElementById("search").style.marginTop = "1%";
 
     //Text
     document.getElementById("navbar").style.marginTop = ".9%";
@@ -55,16 +58,19 @@ function scrollFunction() {
     document.getElementById("avatar").style.width = "70px";
     document.getElementById("avatar").style.marginTop = "5px";
 
-    //Search Icon
-    document.getElementById("search").style.marginTop = "2%";
+    // //Search Icon
+    // document.getElementById("search").style.marginTop = "2%";
 
     //Text
     document.getElementById("navbar").style.marginTop = "2%";
     document.getElementById("navbar").style.marginLeft = "17%";
 
     //LogoIcon
-    document.getElementById("logo").style.height = "60px";
-    document.getElementById("logo").style.width = "60px";
+    document.getElementById("logo").style.height = "80px";
+    document.getElementById("logo").style.width = "80px";
+    document.getElementById("logo").style.marginTop = "-2px";
+    document.getElementById("tit").style.marginTop = "25px";
+    // document.getElementById("logo").style.marginRight = "-100px";
 
     //NavBar
     document.getElementById("wrapper").style.opacity = "0";

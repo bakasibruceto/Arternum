@@ -8,6 +8,8 @@
     src: url(Fonts/Torus-SemiBold.otf);
 }
 
+
+
 .grid-wrapper {
     display: flex;
     justify-content: center;
@@ -39,5 +41,4 @@ a {
 
 .alb:hover img {
     opacity: 0.3;
-} 
-
+}

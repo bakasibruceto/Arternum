@@ -40,6 +40,17 @@ body {
 }
 
 
+#tit {
+  color: yellow;
+  transition: 0.3s;
+  transform: 0.3s;
+  margin-top: 25px;
+  text-decoration: none;
+
+}
+
+
+
 #c{
   margin-top: 3px;
 }

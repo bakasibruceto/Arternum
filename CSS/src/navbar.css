@@ -52,15 +52,16 @@
 
 #logo { /*icon*/
   transition: 0.3s;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  background-image: url('images/sample.png');
   background-size: cover;
   background-position: auto;
   position: relative;
   float: left;
-  margin-left: 150px;
+  margin-left: 130px;
+  
+  filter: hue-rotate(-40deg);
 }
 
 

@@ -32,15 +32,32 @@
         <br>
       </div>
     </div>
+
     <div id="container">
+
       <div id="avatar" onclick="menuToggle();">
         <?php include('PHP/backend/update-avatar.php') ?>
       </div>
       <a href="#default">
-        <div id="logo" data-tooltip="ye"><img id="logo" src="CSS/images/sample.png" alt=""></div>
+        <div id="title" data-tooltip="ye">
+          <img id="logo" src="CSS/images/sample.png" alt="">
+        </div>
       </a>
-      <div id="navbar"></div>
-      <a href="#Search">
+      <a href="#a">
+        <h2 id="tit">&nbsp;Aternum</h2>
+      </a>
+<!-- 
+      <div id="nav2">
+        <ul>
+          <li><a href="index-dashboard.php">home</a></li>
+          <li><a href="#">about us</a></li>
+        </ul>
+      </div> -->
+    </div>
+
+    <div id="navbar"></div>
+         
+      <!-- <a href="#Search">
         <div id="search" data-tooltip="Search" onclick="openSearch()"><img id ="search"src="CSS/images/search.png" alt=""></div>
       </a>
       <div id="myOverlay" class="overlay">
@@ -51,15 +68,12 @@
             <button type="submit"></button>
           </form>
         </div>
-      </div>
-      <div id="nav">
-        <ul>
-          <li><a href="index-dashboard.php">home</a></li>
-          <li><a href="#">about us</a></li>
-        </ul>
-      </div>
-    </div>
+      </div> -->
+
+
+
   </div>
+
 </body>
 
 </html>
