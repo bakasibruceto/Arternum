@@ -52,7 +52,7 @@ if (isset($_POST["register"])) {
         $query = "INSERT INTO login (username, email, password, usertype) VALUES ('$username', '$email','$password','user')";
         mysqli_query($data, $query);
         $_SESSION['username'] = $username;
-        header('location: index.php');
+        header('location: index-Everification.php');
     }
 }
 

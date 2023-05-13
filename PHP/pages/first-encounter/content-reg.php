@@ -21,8 +21,8 @@
       <div id="contents" class="item item-2">
         <div id="intro1">
           <br>
-          <h1>Register</h1>
-          <br><br><br><br>
+          <h1 id="tit">Register</h1>
+          <br>
           <form actions="#" method="POST">
             <?php include('PHP/backend/errors.php') ?>
             <div>
@@ -48,7 +48,7 @@
             <div>
               <button type="submit" class="btn" name="register">register</button>
             </div>
-            <br><br>
+
             <div>
               <a href="index.php"><input type="button" value="Login"></a>
             </div>
@@ -58,25 +58,9 @@
 
       </div>
     </div>
+    <br>
   </div>
-  <!-- <h2>Start your Journey</h2>
-  <h4>here at</h4>
-  <h1>Arternum</h1>
-  <div id="intro">
-    <h2>Start your Journey</h2>
-    <h4>here at</h4>
-    <h1>Arternum</h1>
-  </div> -->
-
-  <!-- <div id="intro">
-      <h2>Start your Journey</h2>
-      <h4>here at</h4>
-      <h1>Arternum</h1>
-    </div>
-    <div id="sipad">
-      <h3><a href="index-register.php">sign-up</a></h3>
-    </div> -->
-  </div>
+  
 
 </body>
 
