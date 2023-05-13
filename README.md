@@ -14,6 +14,7 @@
   - ~~User Crude UI~~ (04-28-2023)
   - ~~Sign-up~~
 
+
 ## Week 2 - Back End Part 2
 - User Profile Crude
   - ~~Change Profile Picture~~ (04-30-2023)
