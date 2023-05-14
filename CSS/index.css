@@ -32,13 +32,51 @@
     display: flex;
     list-style-type: none;
     padding-left: 130px;
+
+    margin-left: -7.5em; /*ADDED*/
 }
 
 #nav a {
-    color: white;
+    padding-top: 50em;
+}
+
+#home, #about {
+    color: rgb(155, 59, 245);
     padding: 12px;
     text-decoration: none;
 }
+
+#home:hover, #about:hover {
+    border-bottom: 4px solid #5638ac;
+    overflow: visible;
+    color: rgb(255, 252, 252);
+    }
+
+#atitle {
+    text-align: 
+    transition: 0.3s;
+    transform: 0.3s;
+    font-size: 24px;
+    color: yellow;
+    padding: 12px;
+    text-decoration: none;
+}
+
+#navlogo {
+    transition: 0.3s;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: auto;
+    position: relative;
+    float: left;
+    margin-left: 130px;
+    
+    filter: hue-rotate(-40deg);  
+}
+
+
 
 #sign p  {
     color: plum;

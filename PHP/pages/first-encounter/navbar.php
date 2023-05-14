@@ -29,8 +29,10 @@
     </div>
     <div id="nav">
       <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">about us</a></li>
+        <li><img id="navlogo" src="CSS/images/sample.png" alt=""></li>
+        <li><a id="atitle" href="#" >Arternum</a></li>
+        <li><a id="home" href="#">home</a></li>
+        <li><a id="about" href="#">about us</a></li>
       </ul>
     </div>
     <div id="sign" onclick="menuToggle()">

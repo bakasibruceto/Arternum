@@ -2,7 +2,7 @@
 session_start();
 
 # Initializing variables
-$host = "localhost:4306"; #get port at XAMPP under SQL
+$host = "localhost:3306"; #get port at XAMPP under SQL
 $db_user = "root";
 $db_password = "";
 $db = "user"; #database name

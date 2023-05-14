@@ -69,7 +69,7 @@
         
     }
 
-#menu .link:hover a {
+#menu #link:hover a {
     border-left: 4px solid #5638ac;
     overflow: visible;
     color: rgb(255, 252, 252);
