@@ -24,6 +24,7 @@ body {
 
 #whole-page{
   position: relative;
+  display: flex;
   flex-direction: column;
   min-height: 100vh;
  
@@ -56,7 +57,6 @@ body {
 }
 
 .content {
-
   width: 100%;
 
   align-items: center;
