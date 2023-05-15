@@ -51,17 +51,17 @@
 }
 
 #home, #about {
-    color: rgb(155, 59, 245);
+    color: white;
     padding: 12px;
     text-decoration: none;
 }
 
 #home:hover, #about:hover {
-    border-bottom: 4px solid #5638ac;
     overflow: visible;
-    color: rgb(255, 252, 252);
+    color: plum;
     }
 
+/* ARTERNUM PATI LOGO SA FIRST ENCOUNT
 #atitle {
     transition: 0.3s;
     transform: 0.3s;
@@ -85,14 +85,21 @@
     margin-left: 140px;
     filter: hue-rotate(-40deg);  
 }
+*/
+
 
 #sign p  {
     color: plum;
-    float: right;
+    float:right;
     margin-top: -20px;
     margin-right: 150px;
     text-decoration: none;
     cursor: pointer;
+}
+
+#sign:hover p {
+    overflow: visible;
+    color: white;
 }
 
 #header-first {
@@ -140,10 +147,7 @@
     background-color: blueviolet;
     cursor: pointer;
     align-items: center;
-    position: relative;
-   
-
-   
+    position: relative;  
 }
 
 a{
@@ -155,15 +159,13 @@ text-decoration: none;
   text-align: center;
 }
 
-
-
-
-
 #intro h1{
     position: relative;
     color: yellow;
-  
 }
 
-
+p{
+    text-align: justify;
+    margin-right: 50%;
+}
 

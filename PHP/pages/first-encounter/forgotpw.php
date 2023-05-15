@@ -24,7 +24,7 @@
           <h1 id="tit">Reset Password</h1>
           <form actions="#" method="POST">
             <?php include('PHP/backend/errors.php') ?>
-            <p>Forgot password? Enter your email address you have  <br> registered with and we will send a reset password form via email</p>
+            <p >Forgot password? Enter your email address you have registered with and we will send a reset password form via email</p>
             <br><br>
             <div>
               <label>email</label>
