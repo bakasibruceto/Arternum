@@ -20,9 +20,9 @@ if (isset($_SESSION["id"])) {
 
 <body>
     <div id="whole-page">
-        <?php include 'PHP/pages/first-encounter/navbar.php'; ?>
-        <?php include 'PHP/pages/first-encounter/header.php'; ?>
-        <?php include 'PHP/pages/first-encounter/forgotpw.php'; ?>
+        <?php include 'PHP/pages/first-encounter/navbar.php' ?>
+        <?php include 'PHP/pages/first-encounter/header.php' ?>
+        <?php include 'PHP/pages/first-encounter/forgotpw.php' ?>
         <?php include 'PHP/pages/default/footer.php' ?>
     </div>
 </body>

@@ -28,7 +28,7 @@
       </div>
     </div>
     <div id="nav">
-          <a><div><img id="navlogo" src="CSS/images/sample.png" alt=""> </div></a>
+          <img id="navlogo" src="CSS/images/sample.png" alt="">
           <a id="atitle" href="#" >Arternum</a>
           <ul class="items">
             <li> 
@@ -41,8 +41,8 @@
     <div id="sign" onclick="menuToggle()">
       <ul>
         <li>
-          <p>sign-in
-          <p>
+          <p> sign-in 
+            <p>
         </li>
       </ul>
     </div>

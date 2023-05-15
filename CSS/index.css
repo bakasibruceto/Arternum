@@ -27,19 +27,28 @@
     width: 100%;
 }
 
+
 #nav ul {
     margin-top: 20px;
     display: flex;
     list-style-type: none;
     padding-left: 130px;
-
-    margin-left: -7.5em; /*ADDED*/
 }
 
 #nav a {
-    padding-top: 50em;
+    padding-top: 15px;
+    padding-left: 5.3px;
 }
 
+#nav {
+    display: flex;
+}
+
+#nav, #items {
+    display: flex;
+    align-items: center;
+    padding-left: 5.3px;
+}
 
 #home, #about {
     color: rgb(155, 59, 245);
@@ -56,13 +65,12 @@
 #atitle {
     transition: 0.3s;
     transform: 0.3s;
-
-
+    padding-right: 60px;
     font-size: 24px;
     color: yellow;
-    padding: 12px;
     text-decoration: none;
 }
+
 
 #navlogo {
     transition: 0.3s;
@@ -74,7 +82,6 @@
     position: relative;
     float: left;
     margin-top: 10px;
-    margin-bottom: 6.5px;
     margin-left: 140px;
     filter: hue-rotate(-40deg);  
 }
@@ -157,7 +164,6 @@ text-decoration: none;
     color: yellow;
   
 }
-
 
 
 
