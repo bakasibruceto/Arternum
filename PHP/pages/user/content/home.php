@@ -46,11 +46,11 @@
 			margin: auto;
 			display: block;
 			width: 80%;
-			max-width: 700px;
+			max-width: 300px;
 		}
 
 		/* Caption of Modal Image */
-		#caption {
+		/* #caption {
 			margin: auto;
 			display: block;
 			width: 80%;
@@ -59,7 +59,7 @@
 			color: #ccc;
 			padding: 10px 0;
 			height: 150px;
-		}
+		} */
 
 		/* Add Animation */
 		.modal-content,
@@ -138,7 +138,7 @@
 					<div id="myModal" class="modal">
 						<span class="close">&times;</span>
 						<img class="modal-content" id="img01">
-						<div id="caption"></div>
+						<div id="caption"><h1>asds</h1></div>
 					</div>
 
 					<script>
