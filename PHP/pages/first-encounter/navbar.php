@@ -21,7 +21,7 @@
           <br>
           <!--error.php-->
           <?php include('PHP/backend/errors.php'); ?>
-          <a href="#">I've forgotten my details</a>
+          <a href="index-forgotpw.php">I've forgotten my details</a>
           <input type="submit" name="login" value="Login" onblur="checkUser(this)">
         </form>
 
