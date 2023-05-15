@@ -19,21 +19,34 @@
         </div>
       </div>
       <div id="contents" class="item item-2">
-        <div id="intro">
-          <br><br><br><br><br>
-          <h2>Start your Journey</h2>
-          <h4>here at</h4>
-          <h1>Arternum</h1>
-          <a href="index-register.php">
-            <button id="sipad">
-              <h3>sign-up</h3>
-            </button>
+        <div id="intro1">
+          <br>
+          <h1 id="tit">Reset Password</h1>
+          <form actions="#" method="POST">
+            <?php include('PHP/backend/errors.php') ?>
+            <p>Forgot password? Enter your email address you have  <br> registered with and we will send a reset password form via email</p>
+            <br><br>
+            <div>
+              <label>email</label>
+              <input type="email" name="email" value="<?php echo $email; ?>">
+            </div>
+            <br><br>
+            <div>
+              <button type="submit" class="btn" name="send-email-request-form">Send Email Request Form</button>
+            </div>
+            <br>
+            <div>
+              <a href="index.php"><input type="button" value="Back to Home page"></a>
+            </div>
+          </form>
           </a>
         </div>
+
       </div>
     </div>
+    <br>
   </div>
-</div>
+  
 
 </body>
 

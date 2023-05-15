@@ -42,7 +42,7 @@ body {
 
 
 #tit {
-  color: yellow;
+  color: rgb(0, 0, 0);
   transition: 0.3s;
   transform: 0.3s;
   margin-top: 25px;

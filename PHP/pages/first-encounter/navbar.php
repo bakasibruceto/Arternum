@@ -28,12 +28,15 @@
       </div>
     </div>
     <div id="nav">
-      <ul>
-        <li><img id="navlogo" src="CSS/images/sample.png" alt=""></li>
-        <li><a id="atitle" href="#" >Arternum</a></li>
-        <li><a id="home" href="#">home</a></li>
-        <li><a id="about" href="#">about us</a></li>
-      </ul>
+          <a><div><img id="navlogo" src="CSS/images/sample.png" alt=""> </div></a>
+          <a id="atitle" href="#" >Arternum</a>
+          <ul class="items">
+            <li> 
+              <a id="home" href="#">home</a>
+              <a id="about" href="#">about us</a>
+            </li>
+          </ul>
+
     </div>
     <div id="sign" onclick="menuToggle()">
       <ul>
