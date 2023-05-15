@@ -14,7 +14,7 @@
       <div id="col" class="item item-1">
         <div id="logopad">
           <div id="hugelogo">
-            <img src="CSS/images/sample.png">
+            <img src="<?php echo $images?>">
           </div>
         </div>
       </div>
