@@ -1,9 +1,7 @@
 <?php 
 include "PHP/backend/db_conn.php" ; 
 
-if (isset($_SESSION["id"])) {
-    header("location: index-dashboard.php");
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

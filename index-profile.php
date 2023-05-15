@@ -2,9 +2,7 @@
 include "PHP/backend/db_conn.php"; 
 include "PHP/backend/getdata.php";
 
-if (!isset($_SESSION["id"])) {
-  header("location: index.php");
-}
+
 ?>
 <!DOCTYPE html>
 <html>

@@ -13,6 +13,7 @@ $password = "";
 $errors = array();
 $id = "";
 $message = "";
+$usertype="";
 
 // login = table name
 
@@ -73,16 +74,16 @@ if (isset($_POST['login'])) {
         $image = $row['image'];
         $email = $row['email'];
         $id = $row['id'];
-        if ($row["usertype"] == "user") {
+        $usertype = $row['usertype'];
+        if ($row['usertype'] == "user") {
             header("location:index-dashboard.php");
-        } elseif ($row["usertype"] == "admin") {
-            $_SESSION["username"] = $username;
-            header("location:index-admin-dashboard.php");
+        } elseif ($row['usertype'] == "admin") {
+            header("location:index-admindash.php");
         }
         if ($row["username"] !== $username || $row["password"] !== $password) {
             array_push($errors, "Wrong userame/password combination");
         }
-
+        $_SESSION["usertype"] = $usertype;
         $_SESSION["id"] = $id;
         $_SESSION["email"] = $email;
         $_SESSION["username"] = $username;
