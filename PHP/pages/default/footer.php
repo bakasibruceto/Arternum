@@ -14,7 +14,7 @@
     <a href="https://github.com/bakasibruceto/2nd-Year-WebDev-Finals-Project-2nd-Sem-2023" target="_blank">Source
       Code</a>
     <br>
-    <h5>powerd by aternum</h5>
+    <h5>powered by arternum</h5>
   </div>
 </footer>
 

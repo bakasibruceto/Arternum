@@ -1,5 +1,10 @@
 <?php 
-include "PHP/backend/db_conn.php" ; 
+include "PHP/backend/db_conn.php"; 
+
+if (isset($_SESSION["id"])) {
+    header("location: index-dashboard.php");
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,12 +20,10 @@ include "PHP/backend/db_conn.php" ;
 
 <body>
     <div id="whole-page">
-        <?php
-        include 'PHP/pages/first-encounter/navbar.php';
-        include 'PHP/pages/first-encounter/header.php';
-        include 'PHP/pages/first-encounter/content.php';
-        include "PHP/pages/default/footer.php"
-        ?>
+        <?php include 'PHP/pages/first-encounter/navbar.php' ?>
+        <?php include 'PHP/pages/first-encounter/header.php' ?>
+        <?php include 'PHP/pages/first-encounter/forgotpw.php' ?>
+        <?php include 'PHP/pages/default/footer.php' ?>
     </div>
 </body>
 

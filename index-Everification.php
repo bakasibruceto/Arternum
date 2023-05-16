@@ -21,7 +21,7 @@ include "PHP/backend/db_conn.php" ;
         include 'PHP/pages/first-encounter/navbar.php';
         include 'PHP/pages/first-encounter/header.php';
         include 'PHP/pages/first-encounter/content-ver.php';
-        include "PHP/pages/default/footer.php"
+        include "PHP/pages/default/footer.php";
         ?>
     </div>
 </body>

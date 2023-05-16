@@ -50,8 +50,23 @@ function scrollFunction() {
     document.getElementById("action").style.right = "85px";
     document.getElementById("menu").style.top = "65px";
     document.getElementById("action").style.top = "65px";
- 
+
+    /*SEPARATOR LANG TOHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+
+
+    
+
+
+     /*SEPARATOR LANG TOHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+
   } else {
+
+     /*SEPARATOR LANG TOHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+
+
+
+
+    /*SEPARATOR LANG TOHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
     //ProfileIcon
     document.getElementById("avatar").style.height = "70px";

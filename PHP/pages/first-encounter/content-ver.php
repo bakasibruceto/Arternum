@@ -20,7 +20,7 @@
       </div>
       <div id="contents" class="item item-2">
         <div id="intro">
-          Email verrification sent
+          Email verification sent
           <br>
           <a href="index.php">back</a>
         </div>

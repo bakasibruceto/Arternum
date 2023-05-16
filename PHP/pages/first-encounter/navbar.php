@@ -21,23 +21,25 @@
           <br>
           <!--error.php-->
           <?php include('PHP/backend/errors.php'); ?>
-          <a href="#">I've forgotten my details</a>
+          <a href="index-forgotpw.php">I've forgotten my details</a>
           <input type="submit" name="login" value="Login" onblur="checkUser(this)">
         </form>
 
       </div>
     </div>
     <div id="nav">
-      <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">about us</a></li>
-      </ul>
+          <ul class="items">
+            <li> 
+              <a id="home" href="#">home</a>
+              <a id="about" href="#">about us</a>
+            </li>
+          </ul>
+
     </div>
     <div id="sign" onclick="menuToggle()">
       <ul>
         <li>
-          <p>sign-in
-          <p>
+          <p> sign-in </p>
         </li>
       </ul>
     </div>

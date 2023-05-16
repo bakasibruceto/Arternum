@@ -17,16 +17,16 @@
         <br>
         <ul class="item">
           <li>
-            <div class="link"><a href="index-profile.php">My Profile</a></div>
+            <div id="link"><a href="index-profile.php">My Profile</a></div>
           </li>
           <li>
-            <div class="link"><a href="#Inbox">Inbox</a></div>
+            <div id="link"><a href="#Inbox">Inbox</a></div>
           </li>
           <li>
-            <div class="link"><a href="index-account-settings.php">Settings</a></div>
+            <div id="link"><a href="index-account-settings.php">Settings</a></div>
           </li>
           <li>
-            <div class="link"><a href="logout.php">Logout</a></div>
+            <div id="link"><a href="logout.php">Logout</a></div>
           </li>
         </ul>
         <br>
@@ -44,7 +44,7 @@
         </div>
       </a>
       <a href="#a">
-        <h2 id="tit">&nbsp;Aternum</h2>
+        <h2 id="tit">&nbsp;Arternum</h2>
       </a>
 <!-- 
       <div id="nav2">
