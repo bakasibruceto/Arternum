@@ -23,9 +23,9 @@
 
 }
 
-#nav #sign {
+/* #nav #sign {
     width: 100%;
-}
+} */
 
 
 #nav ul {
@@ -167,5 +167,9 @@ text-decoration: none;
 p{
     text-align: justify;
     margin-right: 50%;
+}
+
+#action #menu{
+
 }
 

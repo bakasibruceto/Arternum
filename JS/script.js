@@ -1,14 +1,6 @@
-// //Search Icon
-// function openSearch() {
-//   document.getElementById("myOverlay").style.display = "block";
-// }
-
-// function closeSearch() {
-//   document.getElementById("myOverlay").style.display = "none";
-// }
 
 //Dropdown
-function menuToggle(){
+function menuToggle() {
   const toggleMenu = document.querySelector('#menu');
   toggleMenu.classList.toggle('active')
 }
@@ -18,7 +10,7 @@ window.onscroll = function () { scrollFunction() };
 //Navbar on scroll
 function scrollFunction() {
 
-  if ((document.body.scrollTop > 80)|| (document.documentElement.scrollTop > 80)) {
+  if ((document.body.scrollTop > 80) || (document.documentElement.scrollTop > 80)) {
 
     //ProfileIcon
     document.getElementById("avatar").style.height = "45px";
@@ -30,7 +22,7 @@ function scrollFunction() {
     document.getElementById("logo").style.width = "40px";
     document.getElementById("logo").style.marginTop = "0.5px";
     document.getElementById("tit").style.marginTop = "5px";
- 
+
 
     // //Search Icon
     // document.getElementById("search").style.marginTop = "1%";
@@ -51,22 +43,18 @@ function scrollFunction() {
     document.getElementById("menu").style.top = "65px";
     document.getElementById("action").style.top = "65px";
 
-    /*SEPARATOR LANG TOHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 
-    
 
 
-     /*SEPARATOR LANG TOHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+
+
+
 
   } else {
 
-     /*SEPARATOR LANG TOHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 
-
-
-    /*SEPARATOR LANG TOHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
     //ProfileIcon
     document.getElementById("avatar").style.height = "70px";

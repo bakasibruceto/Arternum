@@ -1,7 +1,7 @@
 @import "src/default.css";
 @import "src/navbar.css";
 @import "src/dropdown.css";
-@import "src/searchbar.css";
+/* @import "src/searchbar.css"; */
 
 @font-face {
     font-family: 'custom';

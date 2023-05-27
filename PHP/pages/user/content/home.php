@@ -162,6 +162,7 @@
 							<span class="close">&times;</span>
 								<p>Some text in the Modal..</p>
 								sadsadsad
+								<?= $images['id']?>
 							</div id="s">
 
 

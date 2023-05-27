@@ -5,8 +5,9 @@
 
 #action #menu
 {
-    position:fixed;
+    position:fixed;;
     right: 85px;
+    top: 90px;
     padding: 10px;
     background: #292727;
     width: 150px;

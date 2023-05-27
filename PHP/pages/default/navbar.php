@@ -46,13 +46,6 @@
       <a href="#a">
         <h2 id="tit">&nbsp;Arternum</h2>
       </a>
-<!-- 
-      <div id="nav2">
-        <ul>
-          <li><a href="index-dashboard.php">home</a></li>
-          <li><a href="#">about us</a></li>
-        </ul>
-      </div> -->
     </div>
 
     <div id="navbar"></div>

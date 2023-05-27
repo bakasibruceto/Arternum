@@ -107,10 +107,9 @@ body {
 
 #header2 {
   background-color: #2e293d;
-  margin: 0px 130px 0 130px;
   font-size: 14px;
-  padding: 15px;
-  padding-left: 100px;
+  padding-top: 10px;
+  padding-left: 65px;
 }
 
 #header2 ul {

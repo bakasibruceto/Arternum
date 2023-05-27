@@ -53,7 +53,7 @@ if (isset($_POST["register"])) {
         $query = "INSERT INTO login (username, email, password, usertype) VALUES ('$username', '$email','$password','user')";
         mysqli_query($data, $query);
         $_SESSION['username'] = $username;
-        header('location: index-Everification.php');
+        header('location: ../register/registerd.php');
     }
 }
 
@@ -76,7 +76,7 @@ if (isset($_POST['login'])) {
         $id = $row['id'];
         $usertype = $row['usertype'];
         if ($row['usertype'] == "user") {
-            header("location:index-dashboard.php");
+            header("location:../user/home/home.php");
         } elseif ($row['usertype'] == "admin") {
             header("location:index-admindash.php");
         }

@@ -14,10 +14,12 @@
       <div id="col" class="item item-1">
         <div id="logopad">
           <div id="hugelogo">
-            <img src="<?php echo $images?>">
+            <img src="<?php echo $images ?>">
           </div>
         </div>
       </div>
+
+      
       <div id="contents" class="item item-2">
         <a href="1index.php">&#8592;</a>
         <div class="grid-wrapper">
@@ -29,9 +31,13 @@
           if (mysqli_num_rows($res) > 0) {
             while ($images = mysqli_fetch_assoc($res)) {  ?>
 
-              <div class="alb">
-                <img class="tall" src="uploads/<?= $images['image'] ?>">
+              <div class="modal-dialog modal-dialog-scrollable">
+                <div class="alb">
+                  <img class="tall" src="uploads/<?= $images['image'] ?>" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                </div>  
               </div>
+
+
 
           <?php }
           } ?>

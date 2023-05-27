@@ -11,12 +11,22 @@
   <div id="action">
     <div id="drop">
       <div id="menu">
-        <form actions="#" method="POST" autocomplete="off">
-        
+        <form actions="#" method="POST" autocomplete="off" class="was-validated">
+
           <p>Sign in To Proceed</p>
           <br>
-          <input type="text" name="username" placeholder="username" required>
+          <div class="col px-auto">
+            <label for="username" class="form-label"></label>
+            <input type="text" name="username" placeholder="username" required>
+            <div class="invalid-feedback">
+              Please enter proper username
+            </div>
+            <div class="valid-feedback">
+              <br>
+            </div>
+          </div>
           <br><br>
+          <label for="password" class="form-label"></label>
           <input type="password" name="password" placeholder="password" required>
           <br>
           <!--error.php-->
@@ -28,12 +38,12 @@
       </div>
     </div>
     <div id="nav">
-          <ul class="items">
-            <li> 
-              <a id="home" href="#">home</a>
-              <a id="about" href="#">about us</a>
-            </li>
-          </ul>
+      <ul class="items">
+        <li>
+          <a id="home" href="#">home</a>
+          <a id="about" href="#">about us</a>
+        </li>
+      </ul>
 
     </div>
     <div id="sign" onclick="menuToggle()">

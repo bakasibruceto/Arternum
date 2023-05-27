@@ -4,6 +4,9 @@
 <head>
 	<title>Image Upload Using PHP</title>
 	<link rel="stylesheet" href="CSS/logged.css">
+	<link href="plugins/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    
 	<style>
 		body {
 			display: flex;
