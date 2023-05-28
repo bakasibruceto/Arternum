@@ -1,3 +1,3 @@
 <?php
 
-header("location:pages/login/login.php");
+header("location:webpages/sign-up/connect.php");

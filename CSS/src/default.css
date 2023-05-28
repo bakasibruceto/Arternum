@@ -6,6 +6,18 @@
 }
 
 
+.ho {
+  color: #fff;
+}
+
+.ho:hover {
+  color: #ddd;
+}
+
+.yep{
+  background-color: #221f2e;
+}
+
 /* .con {
   display: flex;
 } */
