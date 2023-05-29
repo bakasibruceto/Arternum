@@ -46,14 +46,14 @@ include "../../PHP/getdata.php";
                         <?php include "../../PHP/update-avatar.php";  ?>
                     </div>
                     <div>
-                        <h1>name</h1>
+                        <h1><?= $_SESSION["username"]; ?></h1>
                     </div>
-                    <div>@<?= $_SESSION["username"]; ?></div>
-                    <a href="../profile/account-settings.php"><button>edit profile</button></a>
-                    <div class="mt-5">Gallery</div>
+                    <a href="../profile/account-settings.php"><button class="btn btn-outline-warning">edit profile</button></a>
+                   
                 </div>
 
-                <a href="1index.php">upload</a>
+                <a href="1index.php"><button class="btn btn-secondary my-3">upload</button></a>
+                <div class="">Gallery</div>
                 <div class="grid-wrapper">
                     <?php
                     $sql = "SELECT * FROM uploaded_image WHERE user_id = $id ORDER BY id DESC";

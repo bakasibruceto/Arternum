@@ -13,18 +13,16 @@
       <link rel="stylesheet" href="../../CSS/gallery.css">
 
       <style>
-        .grid-wrapper{
-            width: 100%;
-            columns: 5;
-            column-gap: 15px;
-            padding: 15px;
-        }
-
-        .alb img{
-            width: 100%;
-            margin-bottom: 15px;
-            border-radius: 10px;
-        }
+          position: relative;
+          width: 70px;
+          height: 70px;
+          border: 50%;
+          overflow: hidden;
+          margin-right: 125px;
+          margin-top: 4px;
+          transition: 0.3s;
+          border-radius: 50%;
+          cursor: pointer;
       </style>
   </head>
 
@@ -38,7 +36,7 @@
       <div id="header2" class="row">
           <div id="hov"></div>
           <ul>
-              <li><a href="../home/home.php" id="no-isactive">dashboard</a></li>
+              <li><a href="../home/home.php" id="no-isactive">home</a></li>
               <li><a id="t">&nbsp;&nbsp;</a></li>
               <li><a href="../profile/account-settings.php" id="no">account settings</a></li>
           </ul>
@@ -52,7 +50,7 @@
                   <div class="container text-center bg-dark text-white">
                       <div class="row">
                           <div class="col px-auto mx-auto">
-                              <a href="1index.php">upload</a>
+                              <a href="1index.php"><button class="btn btn-secondary my-3">upload</button></a>
                               <div class="grid-wrapper">
                                   <?php
                                     $sql = "SELECT * FROM uploaded_image ORDER BY id DESC";
