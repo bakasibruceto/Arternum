@@ -1,5 +1,5 @@
 <?php
-include "../../PHP/backend/db_conn.php";
+include "../../PHP/db_conn.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,12 +8,11 @@ include "../../PHP/backend/db_conn.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../../CSS/logged.css">
     <script src="../../JS/script.js"></script>
-    <script src="../../plugins/jquery-3.6.4.min.js"></script>
-    <link href="../../plugins/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="../../plugins/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../../CSS/logged.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <style>
         body {
@@ -129,48 +128,33 @@ include "../../PHP/backend/db_conn.php";
             </div>
         </div>
     </div>
-    <div class="container text-center bg-dark text-white">
-        <div class="row">
-            <div class="col px-auto mx-auto">
+    <div class="container d-flex justify-content-center bg-dark text-white">
+        <div class="row align-items-center">
+            <!-- <div class="col px-auto mx-auto">
                 <img src="../../CSS/images/sample.png" class="img-responsive img-fluid" alt="Responsive image">
-            </div>
-            <div class="col py-5 my-5">
-                <div id="intro1">
+            </div> -->
+            <h1 id="tit">Register</h1>
+            <br>
+            <?php include('../../PHP/errors.php') ?>
+            <form actions="#" method="POST">
+                <div class="form-group">
+                    <label for="u">username</label>
+                    <input type="text" class="form-control" id="u" name="username" required>
+                    <label for="e">email</label>
+                    <input id="e" class="form-control" type="email" name="email" value="<?php echo $email; ?>">
+                    <label for="p">password</label>
+                    <input id="p" class="form-control" type="password" name="password_1" required>
+                    <label for="cp">confirm password</label>
+                    <input type="password" class="form-control" id="cp" name="password_2" required>
                     <br>
-                    <h1 id="tit">Register</h1>
+
+                    <button type="submit" class="btn btn-outline-warning my-3" name="register">register</button>
                     <br>
-                    <form actions="#" method="POST">
-                        <?php include('../../PHP/backend/errors.php') ?>
-                        <div>
-                            <label>username</label>
-                            <input type="text" name="username" required>
-                        </div>
-                        <br><br>
-                        <div>
-                            <label>email</label>
-                            <input type="email" name="email" value="<?php echo $email; ?>">
-                        </div>
-                        <br><br>
-                        <div>
-                            <label>password</label>
-                            <input type="password" name="password_1" required>
-                        </div>
-                        <br><br>
-                        <div>
-                            <label>confirm password</label>
-                            <input type="password" name="password_2" required>
-                        </div>
-                        <br><br>
-                        <div>
-                            <button type="submit" class="btn text-white" name="register">register</button>
-                        </div>
-
-
-                    </form>
-                    </a>
                 </div>
-            </div>
+            </form>
+
         </div>
+    </div>
     </div>
     <div id="c"></div>
 

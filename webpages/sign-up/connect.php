@@ -140,8 +140,8 @@ include "../../PHP/db_conn.php";
                 <h2>Start your Journey</h2>
                 <h4>here at</h4>
                 <h1>Arternum</h1>
-                <a href="../register/register.php">
-                    <button id="sipad">
+                <a href="register.php">
+                    <button id="sipad" class="btn btn-outline-warning my-3">
                         <h3>sign-up</h3>
                     </button>
                 </a>
