@@ -9,28 +9,23 @@
 }
 
 
-
-.grid-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.grid-wrapper .alb img {
+.modim img{
     width: 100%;
-    object-fit: cover;
-    border-radius: 5px;
-
+    margin-bottom: 15px;
+    border-radius: 10px;
 }
 
-.grid-wrapper {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, max(200px, 1px));
+.grid-wrapper{
+    width: 100%;
+    columns: 5;
+    column-gap: 15px;
+    padding: 15px;
+}
 
-    grid-auto-flow: dense;
-
+.alb img{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 
