@@ -22,12 +22,12 @@
         <div id="avatar" onclick="menuToggle();">
             <?php include "../../PHP/avatar.php";  ?>
         </div>
-        <a href="#default">
+        <a href="../home/home.php">
             <div id="title" data-tooltip="ye">
                 <img id="logo" src="../../CSS/images/sample.png" alt="">
             </div>
         </a>
-        <a href="#a" class="text-decoration-none">
+        <a href="../home/home.php" class="text-decoration-none">
             <h2 id="tit">&nbsp;Arternum</h2>
         </a>
 
