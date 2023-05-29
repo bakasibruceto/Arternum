@@ -24,7 +24,7 @@ while ($row = mysqli_fetch_array($result)) {
         </tr>
         <tr>
             <td>
-                <p class="px-5">description : <?php echo $row['title']; ?></p>
+                <p class="px-5">description : <?php echo $row['description']; ?></p>
             </td>
         </tr>
         <!-- <tr>
