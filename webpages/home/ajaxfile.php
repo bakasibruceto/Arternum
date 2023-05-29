@@ -17,29 +17,27 @@ while ($row = mysqli_fetch_array($result)) {
                 </div>
 
             </td>
-            <td class="text-center">S
+            <td class="text-center ">
                 Title:<?= $row['title'] ?>
-                <p class="px-5">artist : <?php echo $row['user_id']; ?></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
+
+                <div class="avatar">
+                    <?php
+                    $qql = "SELECT * FROM login WHERE id ='" . $row['user_id'] . "'";
+                    $rresult = mysqli_query($conn, $qql);
+                    $rrow = mysqli_fetch_array($rresult);
+                    $image = $rrow['image'];
+                    if ($image == "") {
+                        echo '<img src="../../CSS/images/avatar.png" id="ava">';
+                    } else {
+                        echo '<img src="../../uploaded_img/' . $rrow['image'] . '" id="ava" >';
+                    }
+                    ?>
+
+                </div>
+                <p class="px-5">artist : <?php echo $rrow['username']; ?></p>
                 <p class="px-5">description : <?php echo $row['description']; ?></p>
             </td>
-        </tr>
-        <!-- <tr>
-            <td>
-           <br>
-            </td>
-        </tr>
-        <tr>
-            <td>
-
-            </td>
-            <td>
-
-            </td>
-        </tr> -->
+       
     </table>
 
 <?php } ?>

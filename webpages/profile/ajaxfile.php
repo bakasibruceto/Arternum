@@ -18,10 +18,11 @@ while ($row = mysqli_fetch_array($result)) {
             <td class="text-center">
                 Title:<?= $row['title'] ?>
                 <p class="px-5">artist : <?php echo $row['user_id']; ?></p>
+             
             </td>
         </tr>
         <tr>
-            <td>    
+            <td>
                 <p class="px-5">description : <?php echo $row['title']; ?></p>
             </td>
         </tr>
