@@ -14,7 +14,7 @@ include "../../PHP/db_conn.php";
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <style>
         body {
-            background-color: #18171c;
+            background-color: #FCF7EB;
         }
 
         .ho {
@@ -38,11 +38,11 @@ include "../../PHP/db_conn.php";
         }
 
         .wo {
-            background-color: #221f2e;
+            background-color: #DBC0AE;
         }
 
         .wo2 {
-            background-color: #2e293d;
+            background-color: #EAD9CE;
         }
 
 
@@ -133,7 +133,7 @@ include "../../PHP/db_conn.php";
     </div>
     
     <div class="container text-center bg-dark text-white">
-        <div class="row">
+        <div class="row wo2">
             <div class="col px-auto mx-auto">
                 <img src="../../CSS/images/sample.png" class="img-responsive img-fluid" alt="Responsive image">
             </div>

@@ -1,6 +1,7 @@
 <style>
     #action #menu {
         width: 270px;
+        background: #BE7560;
     }
 
     .o {

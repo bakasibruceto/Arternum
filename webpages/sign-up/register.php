@@ -16,7 +16,7 @@ include "../../PHP/db_conn.php";
 
     <style>
         body {
-            background-color: #18171c;
+            background-color: #FCF7EB;
         }
 
         .ho {
@@ -40,13 +40,12 @@ include "../../PHP/db_conn.php";
         }
 
         .wo {
-            background-color: #221f2e;
+            background-color: #DBC0AE;
         }
 
         .wo2 {
-            background-color: #2e293d;
+            background-color: #EAD9CE;
         }
-
 
         ::-webkit-scrollbar {
             width: 0px;
@@ -82,7 +81,7 @@ include "../../PHP/db_conn.php";
 
         #home,
         #about {
-            color: white;
+            color: brown;
             padding: 12px;
             text-decoration: none;
         }
@@ -92,6 +91,7 @@ include "../../PHP/db_conn.php";
             overflow: visible;
             color: plum;
         }
+
     </style>
 
 
@@ -128,7 +128,7 @@ include "../../PHP/db_conn.php";
             </div>
         </div>
     </div>
-    <div class="container d-flex justify-content-center bg-dark text-white">
+    <div class="container d-flex justify-content-center wo2">
         <div class="row align-items-center">
             <!-- <div class="col px-auto mx-auto">
                 <img src="../../CSS/images/sample.png" class="img-responsive img-fluid" alt="Responsive image">

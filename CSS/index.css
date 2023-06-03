@@ -51,8 +51,14 @@
 }
 
 #home, #about {
-    color: white;
-    padding: 12px;
+    color: black;
+    padding: 300px;
+    text-decoration: none;
+}
+
+#home, #about {
+    color: black;
+    padding: 300px;
     text-decoration: none;
 }
 
@@ -169,7 +175,4 @@ p{
     margin-right: 50%;
 }
 
-#action #menu{
-
-}
 

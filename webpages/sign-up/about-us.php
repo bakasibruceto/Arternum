@@ -17,7 +17,7 @@ include "../../PHP/db_conn.php";
 
     <style>
         body {
-            background-color: #18171c;
+            background-color: #FCF7EB;
         }
 
         .ho {
@@ -41,11 +41,12 @@ include "../../PHP/db_conn.php";
         }
 
         .wo {
-            background-color: #221f2e;
+            background-color: #DBC0AE;
         }
 
         .wo2 {
-            background-color: #2e293d;
+            background-color: #EAD9CE;
+            color: #BE7560; 
         }
 
 
@@ -83,7 +84,7 @@ include "../../PHP/db_conn.php";
 
         #home,
         #about {
-            color: white;
+            color: brown;
             padding: 12px;
             text-decoration: none;
         }
@@ -126,7 +127,7 @@ include "../../PHP/db_conn.php";
             </div>
         </div>
     </div>
-    <div class="container bg-dark text-white">
+    <div class="container text-white wo2">
         <br>
         <h3 class="text-center">leader</h3>
         <div class="row">
@@ -139,7 +140,7 @@ include "../../PHP/db_conn.php";
         <br>
         <h3 class="text-center">members:</h3>
         <br>
-        <div class="row">
+        <div class="row wo2">
             <div class="col text-center">
                 <img src="../../CSS/images/avatar.png" class="y img-responsive img-fluid img-thumbnail" alt="Responsive image">
                 <img src="../../CSS/images/avatar.png" class="y ms-5 img-responsive img-fluid img-thumbnail" alt="Responsive image">

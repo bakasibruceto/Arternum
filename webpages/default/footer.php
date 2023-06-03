@@ -1,4 +1,7 @@
-<footer id="sticky-footer" class="mt-auto flex-shrink-0 py-3 bg-dark text-white-50">
+<footer id="sticky-footer" class="mt-auto flex-shrink-0 py-3 bg-blue text-white-50">
+    
+    <style> #sticky-footer {background: #BE7560;} </style>
+
     <div class="container text-center">
         <small>
             <ul class="list-group list-group-horizontal justify-content-center">

@@ -35,7 +35,7 @@
   width: 100%;
   padding: 10px 10px 100px 10px;
   padding-right: 150x;
-  background: #5638ac;
+  background: red;
   opacity: 0;
   transition: .3s;
 }

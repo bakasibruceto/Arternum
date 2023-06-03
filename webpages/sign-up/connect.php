@@ -14,7 +14,7 @@ include "../../PHP/db_conn.php";
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <style>
         body {
-            background-color: #18171c;
+            background-color: #FCF7EB;
         }
 
         .ho {
@@ -38,11 +38,11 @@ include "../../PHP/db_conn.php";
         }
 
         .wo {
-            background-color: #221f2e;
+            background-color: #DBC0AE;
         }
 
         .wo2 {
-            background-color: #2e293d;
+            background-color: #EAD9CE;
         }
 
 
@@ -66,7 +66,7 @@ include "../../PHP/db_conn.php";
             padding-top: 15px;
             padding-left: 5.3px;
         }
-
+s
         #nav {
             display: flex;
         }
@@ -80,7 +80,7 @@ include "../../PHP/db_conn.php";
 
         #home,
         #about {
-            color: white;
+            color: brown;
             padding: 12px;
             text-decoration: none;
         }
@@ -90,6 +90,22 @@ include "../../PHP/db_conn.php";
             overflow: visible;
             color: plum;
         }
+
+        #ArtPic {
+            padding: 1em;
+            width: 100%;
+            height: 100%;
+        }
+
+        #startjourn {
+            position: fixed;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+
     </style>
 
 
@@ -132,11 +148,9 @@ include "../../PHP/db_conn.php";
         </div>
     </div>
     <div class="container text-center bg-dark text-white">
-        <div class="row">
-            <div class="col px-auto mx-auto">
-                <img src="../../CSS/images/sample.png" class="img-responsive img-fluid" alt="Responsive image">
-            </div>
-            <div class="col py-5 my-5">
+        <div class="row wo2">
+                <img id=ArtPic src="../../CSS/images/first-time.png" class="img-responsive img-fluid" alt="Responsive image">
+            <div id="startjourn" class="col py-5 my-5">
                 <h2>Start your Journey</h2>
                 <h4>here at</h4>
                 <h1>Arternum</h1>

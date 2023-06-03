@@ -17,7 +17,7 @@ include "../../PHP/db_conn.php";
 
     <style>
         body {
-            background-color: #18171c;
+            background-color: #FCF7EB;
         }
 
         .ho {
@@ -41,11 +41,11 @@ include "../../PHP/db_conn.php";
         }
 
         .wo {
-            background-color: #221f2e;
+            background-color: #DBC0AE;
         }
 
         .wo2 {
-            background-color: #2e293d;
+            background-color: #EAD9CE;
         }
 
 
@@ -108,7 +108,7 @@ include "../../PHP/db_conn.php";
 
 
     <div class="container text-white wo">
-        <div class="row">
+        <div class="row wo2">
 
             <div class="col mx-auto px-auto mt-auto flex-shrink-0 py-3">
                 <div class="px-4">

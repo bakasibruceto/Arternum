@@ -12,18 +12,7 @@
       <link rel="stylesheet" href="../../CSS/logged.css">
       <link rel="stylesheet" href="../../CSS/gallery.css">
 
-      <style>
-          position: relative;
-          width: 70px;
-          height: 70px;
-          border: 50%;
-          overflow: hidden;
-          margin-right: 125px;
-          margin-top: 4px;
-          transition: 0.3s;
-          border-radius: 50%;
-          cursor: pointer;
-      </style>
+      <style> body { background-color: #FCF7EB; } </style>
   </head>
 
   <body class="d-flex flex-column min-vh-100">
