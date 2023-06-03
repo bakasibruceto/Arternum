@@ -1,3 +1,4 @@
+<style> #wrapper{background: #DB9682;} </style>
 <div id="action">
     <div id="wrapper"></div>
     <div id="drop">

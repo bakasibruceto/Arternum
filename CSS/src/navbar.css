@@ -35,7 +35,7 @@
   width: 100%;
   padding: 10px 10px 100px 10px;
   padding-right: 150x;
-  background: red;
+  background-color: peru;
   opacity: 0;
   transition: .3s;
 }
