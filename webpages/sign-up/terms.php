@@ -13,8 +13,7 @@ include "../../PHP/db_conn.php";
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="../../CSS/logged.css">
     <script src="../../JS/script.js"></script>
-
-
+    
     <style>
         body {
             background-color: #18171c;
@@ -97,19 +96,12 @@ include "../../PHP/db_conn.php";
         .y {
             width: 150px;
         }
-
-        #img_url {
-			background: #ddd;
-			width: 300px;
-			height: 300px;
-			display: block;
-		}
     </style>
     <title>about-us</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <?php include "../default/nav.php";?>
+    <?php include "../default/nav.php"; ?>
     <div class="container text-white wo">
         <div class="row">
 
@@ -128,35 +120,27 @@ include "../../PHP/db_conn.php";
                         </defs>
                     </svg>
                     <span class="px-3">About-us!</span>
-
                 </div>
             </div>
         </div>
     </div>
-    <div class="container bg-dark text-white">
-        <br>
-        <h3 class="text-center">leader</h3>
-        <div class="row">
-            <div class="col text-center">
-                <img src="../../CSS/images/bruce.jpg" class="y img-responsive img-fluid img-thumbnail" alt="Responsive image">
+    <div class="container bg-dark text-white ">
 
+        <div class="row ">
+            <div class="col-11 mx-5">
+                <h1>Introduction</h1>
+                <p>Please read these Terms of Service ("Terms") carefully. They contain the legal terms and conditions that govern your use of services provided to you by Arternum, including information, text, images, graphics, data or other materials ("Content") and products and services provided through www.Arternum.com as well as all elements, software, programs and code forming or incorporated in to www.Arternum.com (the "Service"). This Service is operated by Arternum, Inc. ("Arternum"). Arternum is also referred to in these Terms as "we", "our", and "us".</p>
+                <h2>Section I: General Terms</h2>
+                <h3>1. Availability</h3>
+                <p>This Service is provided by Arternum on an "AS IS" and "AS AVAILABLE" basis and Arternum reserves the right to modify, suspend or discontinue the Service, in its sole discretion, at any time and without notice. You agree that Arternum is and will not be liable to you for any modification, suspension or discontinuance of the Service.</p>
+                <h3>2. Privacy</h3>
+                <p>Arternum has a firm commitment to safeguarding your privacy. Please review Arternum's Privacy Policy. The terms of Aternum's privacy policy are incorporated into, and form a part of, these Terms.</p>
+                <h3>3. Trademarks</h3>
+                <p>All brand, product and service names used in this Service which identify Arternum or third parties and their products and services are proprietary marks of Arternum and/or the relevant third parties. Nothing in this Service shall be deemed to confer on any person any license or right on the part of Arternum or any third party with respect to any such image, logo or name.</p>
+                <h3>4. Copyright</h3>
+                <p>Arternum is, unless otherwise stated, the owner of all copyright and data rights in the Service and its contents. Individuals who have posted works to Arternum are either the copyright owners of the component parts of that work or are posting the work under license from a copyright owner or his or her agent or otherwise as permitted by law. You may not reproduce, distribute, publicly display or perform, or prepare derivative works based on any of the Content including any such works without the express, written consent of Arternum or the appropriate owner of copyright in such works. Arternum does not claim ownership rights in your works or other materials posted by you to Arternum (Your Content). You agree not to distribute any part of the Service other than Your Content in any medium other than as permitted in these Terms of Service or by use of functions on the Service provided by us. You agree not to alter or modify any part of the Service unless expressly permitted to do so by us or by use of functions on the Service provided by us.</p>
             </div>
-
         </div>
-        <br>
-        <h3 class="text-center">members:</h3>
-        <br>
-        <div class="row">
-            <div class="col text-center">
-                <img src="../../CSS/images/drex.jpg" class="y img-responsive img-fluid img-thumbnail" alt="Responsive image">
-                <img src="../../CSS/images/fio.jpg" class="y ms-5 img-responsive img-fluid img-thumbnail" alt="Responsive image">
-                <img src="../../CSS/images/ck.jpg" class="y ms-5 img-responsive img-fluid img-thumbnail" alt="Responsive image">
-                <img src="../../CSS/images/nyah.jpg" class="y ms-5 img-responsive img-fluid img-thumbnail" alt="Responsive image">
-            </div>
-
-        </div>
-        <br><br>
-
     </div>
     <div id="c"></div>
 

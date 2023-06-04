@@ -8,6 +8,8 @@
     src: url(Fonts/Torus-SemiBold.otf);
 }
 
+
+
 .modim img {
     width: 100%;
     margin-bottom: 15px;
@@ -44,7 +46,7 @@
 
 #ava{
     border-radius: 50%;
-    width: 8%;
+    width: 7%;
 }
 
 .grid-wrapper {
@@ -68,4 +70,18 @@ a {
 
 .alb:hover img {
     opacity: 0.3;
+}
+
+.modal-dialog{
+    width: 70%;
+}
+
+.modal-body p {
+    word-wrap: break-word;
+}
+
+.prof{
+    background-color: #18171c;
+  
+    border-radius: 1%;
 }

@@ -9,7 +9,7 @@ include "../../PHP/db_conn.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../../CSS/logged.css">
+    <link rel="stylesheet" href="../../CSS/logged2.css">
     <script src="../../JS/script.js"></script>
     <script src="../../plugins/jquery-3.6.4.min.js"></script>
     <link href="../../plugins/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -125,7 +125,6 @@ include "../../PHP/db_conn.php";
                         </defs>
                     </svg>
                     <span class="px-3">welcome !</span>
-
                 </div>
             </div>
         </div>
@@ -140,7 +139,7 @@ include "../../PHP/db_conn.php";
                     <br>
                     <h1 id="tit">Registered</h1>
                     <br>
-                    you may now sign-in
+                    you may now sign-in  
 
                 </div>
             </div>

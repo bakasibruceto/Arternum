@@ -8,12 +8,11 @@ include "../../PHP/db_conn.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../JS/script.js"></script>
+    <link rel="stylesheet" href="../../CSS/logged.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="../../CSS/logged.css">
-    <script src="../../JS/script.js"></script>
-
 
     <style>
         body {
@@ -93,23 +92,17 @@ include "../../PHP/db_conn.php";
             overflow: visible;
             color: plum;
         }
-
-        .y {
-            width: 150px;
-        }
-
-        #img_url {
-			background: #ddd;
-			width: 300px;
-			height: 300px;
-			display: block;
-		}
     </style>
-    <title>about-us</title>
+
+    <title>References</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <?php include "../default/nav.php";?>
+
+    <?php
+    include "../default/nav.php";
+    ?>
+
     <div class="container text-white wo">
         <div class="row">
 
@@ -127,42 +120,33 @@ include "../../PHP/db_conn.php";
                             </clipPath>
                         </defs>
                     </svg>
-                    <span class="px-3">About-us!</span>
-
+                    <span class="px-3">welcome !</span>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container bg-dark text-white">
-        <br>
-        <h3 class="text-center">leader</h3>
-        <div class="row">
-            <div class="col text-center">
-                <img src="../../CSS/images/bruce.jpg" class="y img-responsive img-fluid img-thumbnail" alt="Responsive image">
+    <div class="container d-flex justify-content-center bg-dark text-white">
+        <div class="row align-items-center">
+            <!-- <div class="col px-auto mx-auto">
+                <img src="../../CSS/images/sample.png" class="img-responsive img-fluid" alt="Responsive image">
+            </div> -->
+          <h1>References</h1>
+          <p>the website design is heavly inspired from osu</p>
+          <p>images</p>
+       
+          
 
-            </div>
-
-        </div>
-        <br>
-        <h3 class="text-center">members:</h3>
-        <br>
-        <div class="row">
-            <div class="col text-center">
-                <img src="../../CSS/images/drex.jpg" class="y img-responsive img-fluid img-thumbnail" alt="Responsive image">
-                <img src="../../CSS/images/fio.jpg" class="y ms-5 img-responsive img-fluid img-thumbnail" alt="Responsive image">
-                <img src="../../CSS/images/ck.jpg" class="y ms-5 img-responsive img-fluid img-thumbnail" alt="Responsive image">
-                <img src="../../CSS/images/nyah.jpg" class="y ms-5 img-responsive img-fluid img-thumbnail" alt="Responsive image">
-            </div>
 
         </div>
-        <br><br>
-
+    </div>
     </div>
     <div id="c"></div>
 
     <?php
     include "../default/footer.php";
     ?>
+
+
 </body>
 
 </html>

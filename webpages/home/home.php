@@ -13,16 +13,7 @@
       <link rel="stylesheet" href="../../CSS/gallery.css">
 
       <style>
-          position: relative;
-          width: 70px;
-          height: 70px;
-          border: 50%;
-          overflow: hidden;
-          margin-right: 125px;
-          margin-top: 4px;
-          transition: 0.3s;
-          border-radius: 50%;
-          cursor: pointer;
+      
       </style>
   </head>
 
@@ -38,7 +29,7 @@
           <ul>
               <li><a href="../home/home.php" id="no-isactive">home</a></li>
               <li><a id="t">&nbsp;&nbsp;</a></li>
-              <li><a href="../profile/account-settings.php" id="no">account settings</a></li>
+              <li><a href="../profile/settingsBio.php" id="no">account settings</a></li>
           </ul>
       </div>
       </div>
@@ -50,7 +41,7 @@
                   <div class="container text-center bg-dark text-white">
                       <div class="row">
                           <div class="col px-auto mx-auto">
-                              <a href="1index.php"><button class="btn btn-secondary my-3">upload</button></a>
+                              <a href="1index.php"><button class="btn btn-secondary my-3 userinfo" data-target="modal-xl">upload</button></a>
                               <div class="grid-wrapper">
                                   <?php
                                     $sql = "SELECT * FROM uploaded_image ORDER BY id DESC";
@@ -59,7 +50,7 @@
                                     if (mysqli_num_rows($res) > 0) {
                                         while ($images = mysqli_fetch_assoc($res)) {  ?>
                                           <div class="alb">
-                                              <img id="<?= $images['id'] ?>" src="../../uploads/<?= $images['image'] ?>" data-id="<?= $images['id'] ?>" class="userinfo" data-target="modal-xl">
+                                              <img id="<?= $images['id'] ?>" src="../../uploads/<?= $images['image'] ?>" data-id="<?= $images['id'] ?>" class="imagedata" data-target="modal-xl">
                                           </div>
                                   <?php }
                                     } ?>
@@ -75,7 +66,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <?php include "../default/modal.php"; ?>
       <div id="c"></div>
-      <?php include "../default/footer.php"; ?>
+      <?php include "../default/footer2.php"; ?>
       <script src="../../JS/script.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
