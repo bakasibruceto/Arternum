@@ -5,8 +5,10 @@
 
 @font-face {
     font-family: 'custom';
-    src: url(Fonts/Torus-SemiBold.otf);
+    src: url(Fonts/AlteHaasGroteskBold.ttf);
 }
+
+text
 
 .modim img {
     width: 100%;
@@ -69,4 +71,3 @@ a {
 .alb:hover img {
     opacity: 0.3;
 }
-
