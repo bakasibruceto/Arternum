@@ -99,54 +99,71 @@ include "../../PHP/db_conn.php";
         }
 
         .windows {
-            margin: 40px;
-            padding-top: -500px;
+            margin: 5px;
         }
         
-        #artpic2 {
-            margin: 5px;
-            width: 400px;
-            height: 550px;
-        }
-
-        #artpic3 {
-            margin: 5px;
-            width: 400px;
-            height: 550px;
-        }
-
-        #artpic4 {
-            margin: 5px;
-            width: 400px;
-            height: 550px;
-        }
-
         #startjourn {
             padding-top: -50%;
         }
 
         .hovercontainer {
-        margin: 100px auto;
+        margin: 20px auto;
         display: flex;
         flex-direction: row;
         justify-content: center;
         }
         
         .box {
-        width: 250px;
-        margin: 20px 40px; /* margin ng pics */
-        transition: 1s;
+        margin: 0 20px;
+        transition: 0.5s;
         }
 
         .box img {
         display: block;
-        width: 100%;
-        border-radius: 5px;
         }
 
         .box:hover {
-        transform: scale(1.05);
+        transform: scale(1.1);
         z-index: 2;
+        }
+
+        .slideshow {
+        width: 30%;
+        height: 500px;
+        position: relative;
+        margin-top: 100px;
+        margin-left: 200px;
+        }
+
+        .slideshow img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        animation: fade 16s infinite;
+        }
+
+        .slideshow img:nth-child(1) { animation-delay: 0s; }
+
+        .slideshow img:nth-child(2) { animation-delay: 4s; }
+
+        .slideshow img:nth-child(3) { animation-delay: 8s; }
+
+        .slideshow img:nth-child(4) { animation-delay: 12s; }
+
+        @keyframes fade {
+        0% {  opacity: 0; }
+        20% { opacity: 1; }
+        33% { opacity: 0; }
+        53% { opacity: 0; }
+        100% { opacity: 0; }
+        }
+
+        #text {
+            margin-left:  50em;
         }
     </style>
 
@@ -202,26 +219,25 @@ include "../../PHP/db_conn.php";
                 </a>
             </div>
                 <img id=artpic  src="../../CSS/images/landpage.png" class="img-responsive img-fluid" alt="Responsive image">
-                <div class="windows row py-1 my-1">
-                    <img id=artpic2 src="../../CSS/images/PNG1.png" cla>
-                    <img id=artpic3 src="../../CSS/images/PNG2.png" cla>
-                    <img id=artpic4 src="../../CSS/images/PNG3.png" cla>
+                <div class="windows row py-3 my-3">
                 <div class="hovercontainer">
                     <div class="box">
-                        <img src="../../CSS/images/Sculpture.png">
+                        <img src="../../CSS/images/PNG1.png" class="img-responsive img-fluid">
                     </div>
                     <div class="box">
-                        <img src="../../CSS/images/painting.png">
+                        <img src="../../CSS/images/PNG2.png" class="img-responsive img-fluid">
                     </div>
                     <div class="box">
-                        <img src="../../CSS/images/digital.png">
+                        <img src="../../CSS/images/PNG3.png" class="img-responsive img-fluid">
                     </div>
-                    <!-- <div class="slidercontainer">
-                     <div class="sliderwrapper">
-                        <img src="../../CSS/images/PNG1.png" class="img-responsive img-fluid" alt="Responsive image">
-                        <img src="../../CSS/images/PNG2.png" class="img-responsive img-fluid" alt="Responsive image">
-                        <img src="../../CSS/images/PNG3.png" class="img-responsive img-fluid" alt="Responsive image">
-                    </div> -->
+                    </div>
+                    <div class="slideshow">
+                        <img src="../../CSS/images/Sculpture.png" class="img-responsive img-fluid" alt="Slide 1">
+                        <img src="../../CSS/images/painting.png" class="img-responsive img-fluid" alt="Slide 2">
+                        <img src="../../CSS/images/digital.png" class="img-responsive img-fluid" alt="Slide 3">
+                        <img src="../../CSS/images/photography.png" class="img-responsive img-fluid" alt="Slide 3">
+                        <p id="text"> "hakdog" </p>
+                    </div>
                 </div>
             </div>
         </div>
