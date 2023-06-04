@@ -25,7 +25,7 @@
         </div>
         <a href="#default">
             <div id="title" data-tooltip="ye">
-                <img id="logo" src="../../CSS/images/sample.png" alt="">
+                <img id="logo" src="../../CSS/images/LOGO.png" alt="">
             </div>
         </a>
         <a href="#a" class="text-decoration-none">

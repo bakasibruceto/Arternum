@@ -91,6 +91,11 @@ include "../../PHP/db_conn.php";
             color: plum;
         }
 
+        #artlogo {
+            margin-left: -6px;
+            margin-top: -28em;
+        }
+
         #artpic {
             margin: -3%;
             padding-bottom: 10%;
@@ -165,6 +170,38 @@ include "../../PHP/db_conn.php";
         #text {
             margin-left:  50em;
         }
+
+        #phrase {
+            padding: -10%;
+        }
+
+        #sen1 {
+            font-size: 50px;
+            padding: 0;
+            margin: 0;
+            line-height: 70%;
+        }
+        #sen2 {
+            font-size: 30px;
+            padding: 0;
+            margin: 0;
+            line-height: 120%;
+        }
+        #sen3 {
+            font-size: 90px;
+            padding: 0;
+            margin: 0;
+            line-height: 70%;
+        }
+
+        #midsen {
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-top: 25px;
+            font-size: 15.5px;
+        }
+
+
     </style>
 
 
@@ -208,10 +245,12 @@ include "../../PHP/db_conn.php";
     </div>
     <div class="container text-center bg-dark text-white">
         <div class="row">
-        <div id=startjourn class="col py-3 my-2">
-                <h2>Start your Journey</h2>
-                <h4>here at</h4>
-                <h1>Arternum</h1>
+        <div id=startjourn class="col py-3 my-3">
+            <div id = "phrase">
+                <a id = "sen1">Start your Journey</a> <br>
+                <a id = "sen2">here at</a> <br>
+                <a id = "sen3">Arternum</a>
+            </div>
                 <a href="register.php">
                     <button id="sipad" class="btn btn-outline-warning my-3">
                         <h3>sign-up</h3>
@@ -221,12 +260,17 @@ include "../../PHP/db_conn.php";
                 <img id=artpic  src="../../CSS/images/landpage.png" class="img-responsive img-fluid" alt="Responsive image">
                 <div class="windows row py-3 my-3">
                 <div class="hovercontainer">
+
                     <div class="box">
                         <img src="../../CSS/images/PNG1.png" class="img-responsive img-fluid">
                     </div>
                     <div class="box">
                         <img src="../../CSS/images/PNG2.png" class="img-responsive img-fluid">
-                    </div>
+                        <img id="artlogo" src="../../CSS/images/moving-logo.gif" class="img-responsive img-fluid">
+                        <p id="midsen"> Arternum, an online community and platform that focuses on showcasing various forms of art.
+                            Providing a range of benefits and opportunities for artists, art enthusiasts, 
+                            and the broader creative community. </p>
+                    </div>                
                     <div class="box">
                         <img src="../../CSS/images/PNG3.png" class="img-responsive img-fluid">
                     </div>
