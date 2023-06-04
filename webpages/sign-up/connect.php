@@ -90,6 +90,64 @@ include "../../PHP/db_conn.php";
             overflow: visible;
             color: plum;
         }
+
+        #artpic {
+            margin: -3%;
+            padding-bottom: 10%;
+            width: 100%;
+            height: 100%;
+        }
+
+        .windows {
+            margin: 40px;
+            padding-top: -500px;
+        }
+        
+        #artpic2 {
+            margin: 5px;
+            width: 400px;
+            height: 550px;
+        }
+
+        #artpic3 {
+            margin: 5px;
+            width: 400px;
+            height: 550px;
+        }
+
+        #artpic4 {
+            margin: 5px;
+            width: 400px;
+            height: 550px;
+        }
+
+        #startjourn {
+            padding-top: -50%;
+        }
+
+        .hovercontainer {
+        margin: 100px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        }
+        
+        .box {
+        width: 250px;
+        margin: 20px 40px; /* margin ng pics */
+        transition: 1s;
+        }
+
+        .box img {
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        }
+
+        .box:hover {
+        transform: scale(1.05);
+        z-index: 2;
+        }
     </style>
 
 
@@ -133,10 +191,7 @@ include "../../PHP/db_conn.php";
     </div>
     <div class="container text-center bg-dark text-white">
         <div class="row">
-            <div class="col px-auto mx-auto">
-                <img src="../../CSS/images/sample.png" class="img-responsive img-fluid" alt="Responsive image">
-            </div>
-            <div class="col py-5 my-5">
+        <div id=startjourn class="col py-3 my-2">
                 <h2>Start your Journey</h2>
                 <h4>here at</h4>
                 <h1>Arternum</h1>
@@ -145,6 +200,29 @@ include "../../PHP/db_conn.php";
                         <h3>sign-up</h3>
                     </button>
                 </a>
+            </div>
+                <img id=artpic  src="../../CSS/images/landpage.png" class="img-responsive img-fluid" alt="Responsive image">
+                <div class="windows row py-1 my-1">
+                    <img id=artpic2 src="../../CSS/images/PNG1.png" cla>
+                    <img id=artpic3 src="../../CSS/images/PNG2.png" cla>
+                    <img id=artpic4 src="../../CSS/images/PNG3.png" cla>
+                <div class="hovercontainer">
+                    <div class="box">
+                        <img src="../../CSS/images/Sculpture.png">
+                    </div>
+                    <div class="box">
+                        <img src="../../CSS/images/painting.png">
+                    </div>
+                    <div class="box">
+                        <img src="../../CSS/images/digital.png">
+                    </div>
+                    <!-- <div class="slidercontainer">
+                     <div class="sliderwrapper">
+                        <img src="../../CSS/images/PNG1.png" class="img-responsive img-fluid" alt="Responsive image">
+                        <img src="../../CSS/images/PNG2.png" class="img-responsive img-fluid" alt="Responsive image">
+                        <img src="../../CSS/images/PNG3.png" class="img-responsive img-fluid" alt="Responsive image">
+                    </div> -->
+                </div>
             </div>
         </div>
     </div>

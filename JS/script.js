@@ -44,17 +44,7 @@ function scrollFunction() {
     document.getElementById("action").style.top = "65px";
 
 
-
-
-
-
-
-
-
   } else {
-
-
-
 
     //ProfileIcon
     document.getElementById("avatar").style.height = "70px";
