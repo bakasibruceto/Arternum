@@ -1,5 +1,5 @@
 <?php
-include "../../PHP/db_conn.php";
+include "../../PHP/getdata.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -8,12 +8,8 @@ include "../../PHP/db_conn.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../../CSS/logged2.css">
     <script src="../../JS/script.js"></script>
-    <script src="../../plugins/jquery-3.6.4.min.js"></script>
-    <link href="../../plugins/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="../../plugins/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../../CSS/logged.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -98,18 +94,15 @@ include "../../PHP/db_conn.php";
         }
     </style>
 
-
-
-    <title>registered</title>
+    <title>References</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
     <?php
-    include "../default/nav.php";
+    include "../default/navbar.php";
     ?>
-
-
+    <br><br><br><br>
     <div class="container text-white wo">
         <div class="row">
 
@@ -132,27 +125,44 @@ include "../../PHP/db_conn.php";
             </div>
         </div>
     </div>
-    <div class="container text-center bg-dark text-white">
-        <div class="row">
-            <div class="col px-auto mx-auto">
-                <img src="../../CSS/images/LOGO.png class="img-responsive img-fluid" alt="Responsive image">
-            </div>
-            <div class="col py-5 my-5">
-                <div id="intro1">
-                    <br>
-                    <h1 id="tit">Registered</h1>
-                    <br>
-                    you may now sign-in  
+    <div class="container d-flex justify-content-center bg-dark text-white">
+        <div class="row align-items-center">
+            <!-- <div class="col px-auto mx-auto">
+                <img src="../../CSS/images/sample.png" class="img-responsive img-fluid" alt="Responsive image">
+            </div> -->
+            <h1>References</h1>
+            <p>the website design is heavly inspired from osu</p>
+            <p>images</p>
+            <!-- <p>https://www.pinterest.ph/pin/492649950504589/feedback/?invite_code=932d9ea1eddc45d29028bce03f478161&sender_id=755619781138435812</p>
+            <p>https://www.pinterest.ph/pin/140806230642000/feedback/?invite_code=47d180992f7b482c8dd15e52f52f80a3&sender_id=755619781138435812</p>
+            <p>https://www.pinterest.ph/pin/7388786881862327/feedback/?invite_code=17559e10d44d403eae88c2c23d06a75b&sender_id=755619781138435812</p>
+            <p>https://www.pinterest.ph/pin/807622145695104641/feedback/?invite_code=e3c05706638c4a3d8573d2fe1097e94c&sender_id=755619781138435812</p>
+            <p>https://www.pinterest.ph/pin/83175924378644509/feedback/?invite_code=3face6cd570d4afe8d4aaf0a0a004d3f&sender_id=755619781138435812</p>
+            <p>https://www.pinterest.ph/pin/140806231658466/feedback/?invite_code=3d935bf521a344e996e22aebfc0534fc&sender_id=755619781138435812</p>
+            <p>https://www.pinterest.ph/pin/647814727662535746/feedback/?invite_code=b6b25f057f2e4f5f9ed834ecacf1caac&sender_id=755619781138435812</p>
+            <p>https://www.pinterest.ph/pin/492649951413042/feedback/?invite_code=246e93a34a434997bf3e4a23cf0d3574&sender_id=755619781138435812</p>
+            <p>https://www.pinterest.ph/pin/749216088009622702/feedback/?invite_code=b0be1e990ca0430daa82f84debe97f2e&sender_id=755619781138435812</p>
+            <p>https://www.pinterest.ph/pin/241224123783526514/feedback/?invite_code=a49e2d26057142cdaaa64601762cbdb0&sender_id=755619781138435812</p>
+            <p>https://www.pinterest.ph/pin/6755468182895608/feedback/?invite_code=72e2e0914f9948398d42dc3afcd0adaa&sender_id=755619781138435812</p>
+            <p>https://www.pinterest.ph/pin/11540542789598800/feedback/?invite_code=252d44825f924fabbf588dbcdd84cbc1&sender_id=755619781138435812</p>
+            <p>https://www.shutterstock.com/search/artwork</p>
+            <p>https://www.saatchiart.com/art/Painting-When-the-party-s-over/896699/6410091/view</p>
+            <p>https://www.pinterest.ph/yuliscervantes93/</p>
+            <p>https://www.pinterest.ph/pin/344032859040111954/</p>
+            <p>https://www.pinterest.ph/pin/460844974363529986/</p>
+            <p>https://felt.co.nz/listing/531818/MOSAIC-RAINBOW-HEART-2---GARDEN-WALL-ART</p> -->
 
-                </div>
-            </div>
+
         </div>
+    </div>
     </div>
     <div id="c"></div>
 
     <?php
     include "../default/footer.php";
     ?>
+
+
 </body>
 
 </html>

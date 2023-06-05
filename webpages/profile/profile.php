@@ -18,14 +18,11 @@ include "../../PHP/getdata.php";
     <title>profile</title>
 
     <style>
-         #img_url {
+        #img_url {
             width: 200px;
             height: 200px;
             border-radius: 50%;
         }
-
-       
-        
     </style>
 </head>
 
@@ -40,19 +37,21 @@ include "../../PHP/getdata.php";
     <div class="container text-center bg-dark text-white">
         <div class="row">
             <div class="col px-auto mx-auto">
+                <div class="container prof">
+                    <div id="logopad" class="mt-3">
+                        <div id="hugelogo" class="pt-4">
+                            <?php include "../../PHP/update-avatar.php";  ?>
+                        </div>
+                        <div>
+                            <h1><?= $_SESSION["username"]; ?></h1>
+                        </div>
+                        <a href="../profile/settingsBio.php"><button class="btn btn-outline-warning">edit profile</button></a>
 
-                <div id="logopad" class="mt-5">
-                    <div id="hugelogo">
-                        <?php include "../../PHP/update-avatar.php";  ?>
                     </div>
-                    <div>
-                        <h1><?= $_SESSION["username"]; ?></h1>
-                    </div>
-                    <a href="../profile/account-settings.php"><button class="btn btn-outline-warning">edit profile</button></a>
-                   
+
+                    <a href="1index.php"><button class="btn btn-secondary my-3">upload</button></a>
+
                 </div>
-
-                <a href="1index.php"><button class="btn btn-secondary my-3">upload</button></a>
                 <div class="">Gallery</div>
                 <div class="grid-wrapper">
                     <?php
@@ -62,7 +61,7 @@ include "../../PHP/getdata.php";
                     if (mysqli_num_rows($res) > 0) {
                         while ($images = mysqli_fetch_assoc($res)) {  ?>
                             <div class="alb">
-                                <img id="<?= $images['id'] ?>" src="../../uploads/<?= $images['image'] ?>" data-id="<?= $images['id'] ?>" class="userinfo" data-target="modal-xl">
+                                <img id="<?= $images['id'] ?>" src="../../uploads/<?= $images['image'] ?>" data-id="<?= $images['id'] ?>" class="imagedata" data-target="modal-xl">
                             </div>
                     <?php }
                     } ?>
@@ -78,7 +77,7 @@ include "../../PHP/getdata.php";
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <?php include "../default/modal.php"; ?>
     <div id="c"></div>
-    <?php include "../default/footer.php"; ?>
+    <?php include "../default/footer2.php"; ?>
     <script src="../../JS/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>

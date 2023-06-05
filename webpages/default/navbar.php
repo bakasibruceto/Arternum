@@ -8,7 +8,7 @@
                 <div id="link"><a href="../profile/profile.php">My Profile</a></div>
             </div>
             <div class="pl-5">
-                <div id="link"><a href="../profile/account-settings.php">Settings</a></div>
+                <div id="link"><a href="../profile/settingsAvatar.php">Settings</a></div>
             </div>
             <div class="pl-5">
                 <div id="link"><a href="../../PHP/logout.php">Logout</a></div>

@@ -1,5 +1,5 @@
 <?php
-include "../../PHP/db_conn.php";
+include "../../PHP/getdata.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,11 +9,8 @@ include "../../PHP/db_conn.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../../CSS/logged2.css">
     <script src="../../JS/script.js"></script>
-    <script src="../../plugins/jquery-3.6.4.min.js"></script>
-    <link href="../../plugins/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="../../plugins/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../../CSS/logged.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -96,21 +93,28 @@ include "../../PHP/db_conn.php";
             overflow: visible;
             color: plum;
         }
+
+        .y {
+            width: 150px;
+        }
     </style>
 
 
 
-    <title>registered</title>
+    <title>about-us</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
 
+
     <?php
-    include "../default/nav.php";
+    include "../default/navbar.php";
     ?>
 
 
-    <div class="container text-white wo">
+    </div>
+    <br><br>
+    <div class="container text-white wo mt-5">
         <div class="row">
 
             <div class="col mx-auto px-auto mt-auto flex-shrink-0 py-3">
@@ -127,26 +131,46 @@ include "../../PHP/db_conn.php";
                             </clipPath>
                         </defs>
                     </svg>
-                    <span class="px-3">welcome !</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container text-center bg-dark text-white">
-        <div class="row">
-            <div class="col px-auto mx-auto">
-                <img src="../../CSS/images/LOGO.png class="img-responsive img-fluid" alt="Responsive image">
-            </div>
-            <div class="col py-5 my-5">
-                <div id="intro1">
-                    <br>
-                    <h1 id="tit">Registered</h1>
-                    <br>
-                    you may now sign-in  
+                    <span class="px-3">About-us!</span>
 
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container bg-dark text-white">
+        <br>
+        <h3 class="text-center">leader</h3>
+        <div class="row">
+            <div class="col text-center">
+                <img src="../../CSS/images/bruce.jpg" class="y img-responsive img-fluid img-thumbnail bg-dark border-dark" alt="Responsive image">
+                <p class="text-center">Aaron Bruce L. Agaloos</p>
+            </div>
+
+        </div>
+        <br>
+        <h3 class="text-center">members:</h3>
+        <br>
+        <div class="row d-flex text-center">
+            <div class="col text-center ">
+                <img src="../../CSS/images/drex.jpg" class="y img-responsive img-fluid img-thumbnail bg-dark border-dark" alt="Responsive image">
+                <p class="text-center">Drexler C. Fernandez</p>
+            </div>
+            <div class="col text-center ">
+                <img src="../../CSS/images/fio.jpg" class="y  img-responsive img-fluid img-thumbnail bg-dark border-dark" alt="Responsive image">
+                <p class="text-center">Fiona Iryll David</p>
+            </div>
+            <div class="col text-center ">
+                <img src="../../CSS/images/ck.jpg" class="y img-responsive img-fluid img-thumbnail bg-dark border-dark" alt="Responsive image">
+                <p class="text-center">Carl Kevin Magtoto</p>
+            </div>
+            <div class="col text-center ">
+                <img src="../../CSS/images/nyah.jpg" class="y  img-responsive  bg-dark border-dark" alt="Responsive image">
+                <p class="text-center">Nyah Castillio</p>
+            </div>
+
+        </div>
+        <br><br>
+
     </div>
     <div id="c"></div>
 
