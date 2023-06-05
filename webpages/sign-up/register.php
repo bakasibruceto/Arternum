@@ -92,6 +92,18 @@ include "../../PHP/db_conn.php";
             overflow: visible;
             color: plum;
         }
+
+        #reg1pic {
+        align-items: left;
+        width: 638px;
+        height: 790px;
+        padding-left:-50px;
+        padding-top: 30px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+        position: relative;
+        }
+
     </style>
 
 
@@ -127,12 +139,15 @@ include "../../PHP/db_conn.php";
                 </div>
             </div>
         </div>
-    </div>
     <div class="container d-flex justify-content-center bg-dark text-white">
+        <div>
+            <img id="reg1pic" src="../../CSS/images/register-1.png" class="img-responsive img-fluid">
+        </div>
         <div class="row align-items-center">
             <!-- <div class="col px-auto mx-auto">
                 <img src="../../CSS/images/sample.png" class="img-responsive img-fluid" alt="Responsive image">
             </div> -->
+
             <h1 id="tit">Register</h1>
             <br>
             <?php include('../../PHP/errors.php') ?>

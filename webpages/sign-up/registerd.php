@@ -96,6 +96,28 @@ include "../../PHP/db_conn.php";
             overflow: visible;
             color: plum;
         }
+
+        #reg2pic {
+        width: 870px;
+        height: 700px;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        }
+
+        #tit{
+            font-size: 50px;
+            padding: 0;
+            margin: 0;
+            line-height: 300%;
+        }
+
+        #signnow {
+            font-size: 30px;
+            padding: 0;
+            margin: 0;
+            line-height: 20%;
+        }
     </style>
 
 
@@ -127,7 +149,7 @@ include "../../PHP/db_conn.php";
                             </clipPath>
                         </defs>
                     </svg>
-                    <span class="px-3">welcome !</span>
+                    <span class="px-3">welcome!</span>
                 </div>
             </div>
         </div>
@@ -135,14 +157,14 @@ include "../../PHP/db_conn.php";
     <div class="container text-center bg-dark text-white">
         <div class="row">
             <div class="col px-auto mx-auto">
-                <img src="../../CSS/images/LOGO.png class="img-responsive img-fluid" alt="Responsive image">
+                <img id="reg2pic" src="../../CSS/images/register-2.png" class="img-responsive img-fluid">
             </div>
             <div class="col py-5 my-5">
                 <div id="intro1">
                     <br>
-                    <h1 id="tit">Registered</h1>
+                    <a id="tit">Registered</a>
                     <br>
-                    you may now sign-in  
+                    <a id="signnow"> you may now sign-in </a>
 
                 </div>
             </div>
