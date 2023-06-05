@@ -133,6 +133,7 @@ include "../../PHP/db_conn.php";
         }
 
         .slideshow {
+        margin-bottom: 70px;
         width: 30%;
         height: 500px;
         position: relative;
@@ -168,7 +169,10 @@ include "../../PHP/db_conn.php";
         }
 
         #text {
-            margin-left:  50em;
+            margin-top: 70px;
+            margin-right: -13em;
+            margin-left: 9em;
+            font-size: 50px;
         }
 
         #phrase {
@@ -280,8 +284,16 @@ include "../../PHP/db_conn.php";
                         <img src="../../CSS/images/painting.png" class="img-responsive img-fluid" alt="Slide 2">
                         <img src="../../CSS/images/digital.png" class="img-responsive img-fluid" alt="Slide 3">
                         <img src="../../CSS/images/photography.png" class="img-responsive img-fluid" alt="Slide 3">
-                        <p id="text"> "hakdog" </p>
+                        <p id="text"> Exhibits different kinds of art including digital art, 
+                                      painting art, photography, sculpture and more. </p>
                     </div>
+                    <div>
+                    <a href="register.php">
+                    <button id="sipad" class="btn btn-outline-warning my-3">
+                        <h3>sign-up</h3>
+                    </button>
+                    </div>
+                </a>
                 </div>
             </div>
         </div>
