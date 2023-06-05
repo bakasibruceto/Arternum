@@ -29,7 +29,9 @@
           <ul>
               <li><a href="../home/home.php" id="no-isactive">home</a></li>
               <li><a id="t">&nbsp;&nbsp;</a></li>
-              <li><a href="../profile/settingsBio.php" id="no">account settings</a></li>
+              <li><a href="../home/1index.php" id="no">upload</a></li>
+              <li><a id="t">&nbsp;&nbsp;</a></li>
+              <li><a href="../profile/settingsAvatar.php" id="no">account settings</a></li>
           </ul>
       </div>
       </div>
@@ -41,7 +43,7 @@
                   <div class="container text-center bg-dark text-white">
                       <div class="row">
                           <div class="col px-auto mx-auto">
-                              <a href="1index.php"><button class="btn btn-secondary my-3 userinfo" data-target="modal-xl">upload</button></a>
+                              <!-- <a href="1index.php"><button class="btn btn-secondary my-3 userinfo" data-target="modal-xl">upload</button></a> -->
                               <div class="grid-wrapper">
                                   <?php
                                     $sql = "SELECT * FROM uploaded_image ORDER BY id DESC";

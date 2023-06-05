@@ -96,20 +96,21 @@ include "../../PHP/db_conn.php";
 
         .y {
             width: 150px;
+            border-radius: 10%;
         }
 
         #img_url {
-			background: #ddd;
-			width: 300px;
-			height: 300px;
-			display: block;
-		}
+            background: #ddd;
+            width: 300px;
+            height: 300px;
+            display: block;
+        }
     </style>
     <title>about-us</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <?php include "../default/nav.php";?>
+    <?php include "../default/nav.php"; ?>
     <div class="container text-white wo">
         <div class="row">
 
@@ -138,20 +139,30 @@ include "../../PHP/db_conn.php";
         <h3 class="text-center">leader</h3>
         <div class="row">
             <div class="col text-center">
-                <img src="../../CSS/images/bruce.jpg" class="y img-responsive img-fluid img-thumbnail" alt="Responsive image">
-
+                <img src="../../CSS/images/bruce.jpg" class="y img-responsive img-fluid img-thumbnail bg-dark border-dark" alt="Responsive image">
+                <p class="text-center">Aaron Bruce L. Agaloos</p>
             </div>
 
         </div>
         <br>
         <h3 class="text-center">members:</h3>
         <br>
-        <div class="row">
-            <div class="col text-center">
-                <img src="../../CSS/images/drex.jpg" class="y img-responsive img-fluid img-thumbnail" alt="Responsive image">
-                <img src="../../CSS/images/fio.jpg" class="y ms-5 img-responsive img-fluid img-thumbnail" alt="Responsive image">
-                <img src="../../CSS/images/ck.jpg" class="y ms-5 img-responsive img-fluid img-thumbnail" alt="Responsive image">
-                <img src="../../CSS/images/nyah.jpg" class="y ms-5 img-responsive img-fluid img-thumbnail" alt="Responsive image">
+        <div class="row d-flex text-center">
+            <div class="col text-center ">
+                <img src="../../CSS/images/drex.jpg" class="y img-responsive img-fluid img-thumbnail bg-dark border-dark" alt="Responsive image">
+                <p class="text-center">Drexler C. Fernandez</p>
+            </div>
+            <div class="col text-center ">
+                <img src="../../CSS/images/fio.jpg" class="y  img-responsive img-fluid img-thumbnail bg-dark border-dark" alt="Responsive image">
+                <p class="text-center">Fiona Iryll David</p>
+            </div>
+            <div class="col text-center ">
+                <img src="../../CSS/images/ck.jpg" class="y img-responsive img-fluid img-thumbnail bg-dark border-dark" alt="Responsive image">
+                <p class="text-center">Carl Kevin Magtoto</p>
+            </div>
+            <div class="col text-center ">
+                <img src="../../CSS/images/nyah.jpg" class="y  img-responsive  bg-dark border-dark" alt="Responsive image">
+                <p class="text-center">Nyah Castillio</p>
             </div>
 
         </div>

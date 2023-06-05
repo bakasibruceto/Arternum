@@ -82,9 +82,6 @@ include "../../PHP/getdata.php";
                 <div id="menu" class="menu">
                     <br>
                     <div class="px-3">
-                        <div id="link"><a href="settingsBio.php">bio</a></div>
-                    </div>
-                    <div class="px-3">
                         <div id="link-isActive"><a href="settingsAvatar.php">avatar</a></div>
                     </div>
                     <div class="px-3">

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Image Upload Profile</title>
+	<title>upload</title>
 	<link rel="stylesheet" href="../../../CSS/logged.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 	<link rel="stylesheet" href="../../CSS/logged.css">
@@ -30,15 +30,13 @@
 		<?php if (isset($_GET['error'])) : ?>
 			<p><?php echo $_GET['error']; ?></p>
 		<?php endif ?>
-
 		<form action="../../PHP/upload.php" method="post" enctype="multipart/form-data">
-
-
 			<script>
 				function img_pathUrl(input) {
 					$('#img_url')[0].src = (window.URL ? URL : webkitURL).createObjectURL(input.files[0]);
 				}
 			</script>
+		<br>
 			<div class="form-group">
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 				<img src="" id="img_url" alt="your image">
@@ -52,9 +50,8 @@
 			</div>
 			<br>
 			<input type="submit" name="submit" value="Upload">
-
 		</form>
-
+			
 	</div>
 
 </body>

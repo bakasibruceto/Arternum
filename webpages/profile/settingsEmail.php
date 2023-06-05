@@ -48,9 +48,7 @@ include "../../PHP/getdata.php";
             <div class="col-3 wap">
                 <div id="menu" class="menu">
                     <br>
-                    <div class="px-3">
-                        <div id="link"><a href="settingsBio.php">bio</a></div>
-                    </div>
+                
 
                     <div class="px-3">
                         <div id="link"><a href="settingsAvatar.php">avatar</a></div>
