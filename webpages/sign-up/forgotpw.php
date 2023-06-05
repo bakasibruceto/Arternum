@@ -135,7 +135,7 @@ include "../../PHP/db_conn.php";
     <div class="container text-center bg-dark text-white">
         <div class="row">
             <div class="col px-auto mx-auto">
-                <img src="../../CSS/images/sample.png" class="img-responsive img-fluid" alt="Responsive image">
+                <img src="../../CSS/images/LOGO.png" class="img-responsive img-fluid" alt="Responsive image">
             </div>
             <div class="col py-5 my-5">
                 <br>

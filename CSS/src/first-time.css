@@ -52,7 +52,6 @@
 }
 
 #hugelogo img {
-    filter: hue-rotate(-40deg);
     position: absolute;
     top: 0;
     left: 0;

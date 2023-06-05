@@ -90,6 +90,118 @@ include "../../PHP/db_conn.php";
             overflow: visible;
             color: plum;
         }
+
+        #artlogo {
+            margin-left: -6px;
+            margin-top: -28em;
+        }
+
+        #artpic {
+            margin: -3%;
+            padding-bottom: 10%;
+            width: 100%;
+            height: 100%;
+        }
+
+        .windows {
+            margin: 5px;
+        }
+        
+        #startjourn {
+            padding-top: -50%;
+        }
+
+        .hovercontainer {
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        }
+        
+        .box {
+        margin: 0 20px;
+        transition: 0.5s;
+        }
+
+        .box img {
+        display: block;
+        }
+
+        .box:hover {
+        transform: scale(1.1);
+        z-index: 2;
+        }
+
+        .slideshow {
+        width: 30%;
+        height: 500px;
+        position: relative;
+        margin-top: 100px;
+        margin-left: 200px;
+        }
+
+        .slideshow img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        animation: fade 16s infinite;
+        }
+
+        .slideshow img:nth-child(1) { animation-delay: 0s; }
+
+        .slideshow img:nth-child(2) { animation-delay: 4s; }
+
+        .slideshow img:nth-child(3) { animation-delay: 8s; }
+
+        .slideshow img:nth-child(4) { animation-delay: 12s; }
+
+        @keyframes fade {
+        0% {  opacity: 0; }
+        20% { opacity: 1; }
+        33% { opacity: 0; }
+        53% { opacity: 0; }
+        100% { opacity: 0; }
+        }
+
+        #text {
+            margin-left:  50em;
+        }
+
+        #phrase {
+            padding: -10%;
+        }
+
+        #sen1 {
+            font-size: 50px;
+            padding: 0;
+            margin: 0;
+            line-height: 70%;
+        }
+        #sen2 {
+            font-size: 30px;
+            padding: 0;
+            margin: 0;
+            line-height: 120%;
+        }
+        #sen3 {
+            font-size: 90px;
+            padding: 0;
+            margin: 0;
+            line-height: 70%;
+        }
+
+        #midsen {
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-top: 25px;
+            font-size: 15.5px;
+        }
+
+
     </style>
 
 
@@ -133,18 +245,44 @@ include "../../PHP/db_conn.php";
     </div>
     <div class="container text-center bg-dark text-white">
         <div class="row">
-            <div class="col px-auto mx-auto">
-                <img src="../../CSS/images/sample.png" class="img-responsive img-fluid" alt="Responsive image">
+        <div id=startjourn class="col py-3 my-3">
+            <div id = "phrase">
+                <a id = "sen1">Start your Journey</a> <br>
+                <a id = "sen2">here at</a> <br>
+                <a id = "sen3">Arternum</a>
             </div>
-            <div class="col py-5 my-5">
-                <h2>Start your Journey</h2>
-                <h4>here at</h4>
-                <h1>Arternum</h1>
                 <a href="register.php">
                     <button id="sipad" class="btn btn-outline-warning my-3">
                         <h3>sign-up</h3>
                     </button>
                 </a>
+            </div>
+                <img id=artpic  src="../../CSS/images/landpage.png" class="img-responsive img-fluid" alt="Responsive image">
+                <div class="windows row py-3 my-3">
+                <div class="hovercontainer">
+
+                    <div class="box">
+                        <img src="../../CSS/images/PNG1.png" class="img-responsive img-fluid">
+                    </div>
+                    <div class="box">
+                        <img src="../../CSS/images/PNG2.png" class="img-responsive img-fluid">
+                        <img id="artlogo" src="../../CSS/images/moving-logo.gif" class="img-responsive img-fluid">
+                        <p id="midsen"> Arternum, an online community and platform that focuses on showcasing various forms of art.
+                            Providing a range of benefits and opportunities for artists, art enthusiasts, 
+                            and the broader creative community. </p>
+                    </div>                
+                    <div class="box">
+                        <img src="../../CSS/images/PNG3.png" class="img-responsive img-fluid">
+                    </div>
+                    </div>
+                    <div class="slideshow">
+                        <img src="../../CSS/images/Sculpture.png" class="img-responsive img-fluid" alt="Slide 1">
+                        <img src="../../CSS/images/painting.png" class="img-responsive img-fluid" alt="Slide 2">
+                        <img src="../../CSS/images/digital.png" class="img-responsive img-fluid" alt="Slide 3">
+                        <img src="../../CSS/images/photography.png" class="img-responsive img-fluid" alt="Slide 3">
+                        <p id="text"> "hakdog" </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

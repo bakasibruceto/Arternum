@@ -51,8 +51,14 @@
 }
 
 #home, #about {
-    color: white;
-    padding: 12px;
+    color: black;
+    padding: 300px;
+    text-decoration: none;
+}
+
+#home, #about {
+    color: black;
+    padding: 300px;
     text-decoration: none;
 }
 
@@ -128,7 +134,6 @@
 }
 
 #hugelogo img {
-    filter: hue-rotate(-40deg);
     position: absolute;
     top: 0;
     left: 0;
@@ -169,7 +174,4 @@ p{
     margin-right: 50%;
 }
 
-#action #menu{
-
-}
 
