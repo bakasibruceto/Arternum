@@ -9,11 +9,8 @@ include "../../PHP/db_conn.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../../CSS/logged2.css">
+    <link rel="stylesheet" href="../../CSS/logged.css">
     <script src="../../JS/script.js"></script>
-    <script src="../../plugins/jquery-3.6.4.min.js"></script>
-    <link href="../../plugins/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="../../plugins/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -133,7 +130,7 @@ include "../../PHP/db_conn.php";
 
 
     <div class="container text-white wo">
-        <div class="row">
+        <div class="row wo2">
 
             <div class="col mx-auto px-auto mt-auto flex-shrink-0 py-3">
                 <div class="px-4">
@@ -150,6 +147,7 @@ include "../../PHP/db_conn.php";
                         </defs>
                     </svg>
                     <span class="px-3">welcome!</span>
+
                 </div>
             </div>
         </div>
@@ -157,7 +155,9 @@ include "../../PHP/db_conn.php";
     <div class="container text-center bg-dark text-white">
         <div class="row">
             <div class="col px-auto mx-auto">
+
                 <img id="reg2pic" src="../../CSS/images/register-2.png" class="img-responsive img-fluid">
+
             </div>
             <div class="col py-5 my-5">
                 <div id="intro1">

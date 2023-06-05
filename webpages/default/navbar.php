@@ -24,7 +24,7 @@
         </div>
         <a href="../home/home.php">
             <div id="title" data-tooltip="ye">
-                <img id="logo" src="../../CSS/images/LOGO-RED.png" alt="">
+                <img id="logo" src="../../CSS/images/LOGO.png" alt="">
             </div>
         </a>
         <a href="../home/home.php" class="text-decoration-none">
