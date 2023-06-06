@@ -93,17 +93,16 @@ include "../../PHP/db_conn.php";
             color: plum;
         }
 
-        #reg1pic {
-        align-items: left;
-        width: 638px;
-        height: 790px;
-        padding-left:-50px;
-        padding-top: 30px;
-        padding-right: 50px;
-        padding-bottom: 30px;
-        position: relative;
-        }
-
+        /* #reg1pic {
+            align-items: left;
+            width: 638px;
+            height: 790px;
+            padding-left: -50px;
+            padding-top: 30px;
+            padding-right: 50px;
+            padding-bottom: 30px;
+            position: relative;
+        } */
     </style>
 
 
@@ -139,37 +138,43 @@ include "../../PHP/db_conn.php";
                 </div>
             </div>
         </div>
-    <div class="container d-flex justify-content-center bg-dark text-white">
-        <div>
-            <img id="reg1pic" src="../../CSS/images/register-1.png" class="img-responsive img-fluid">
-        </div>
-        <div class="row align-items-center">
-            <!-- <div class="col px-auto mx-auto">
+        <div class="container d-flex justify-content-center bg-dark text-white">
+
+            <div class="row align-items-center">
+                <!-- <div class="col px-auto mx-auto">
                 <img src="../../CSS/images/sample.png" class="img-responsive img-fluid" alt="Responsive image">
             </div> -->
 
-            <h1 id="tit">Register</h1>
-            <br>
-            <?php include('../../PHP/errors.php') ?>
-            <form actions="#" method="POST">
-                <div class="form-group">
-                    <label for="u">username</label>
-                    <input type="text" class="form-control" id="u" name="username" required>
-                    <label for="e">email</label>
-                    <input id="e" class="form-control" type="email" name="email" value="<?php echo $email; ?>">
-                    <label for="p">password</label>
-                    <input id="p" class="form-control" type="password" name="password_1" required>
-                    <label for="cp">confirm password</label>
-                    <input type="password" class="form-control" id="cp" name="password_2" required>
-                    <br>
 
-                    <button type="submit" class="btn btn-outline-warning my-3" name="register">register</button>
-                    <br>
+                <div class="col">
+                    <div>
+                        <img id="reg1pic" src="../../CSS/images/register-1.png" class="img-responsive img-fluid">
+                    </div>
                 </div>
-            </form>
+                <div class="col">
+                    <h1 id="tit">Register</h1>
+                    <?php include('../../PHP/errors.php') ?>
+                    <form actions="#" method="POST">
+                        <div class="form-group">
+                            <label for="u">username</label>
+                            <input type="text" class="form-control" id="u" name="username" required>
+                            <label for="e">email</label>
+                            <input id="e" class="form-control" type="email" name="email" value="<?php echo $email; ?>">
+                            <label for="p">password</label>
+                            <input id="p" class="form-control" type="password" name="password_1" required>
+                            <label for="cp">confirm password</label>
+                            <input type="password" class="form-control" id="cp" name="password_2" required>
+                            <br>
 
+                            <button type="submit" class="btn btn-outline-warning my-3" name="register">register</button>
+                            <br>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
         </div>
-    </div>
     </div>
     <div id="c"></div>
 

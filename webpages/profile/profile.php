@@ -45,7 +45,7 @@ include "../../PHP/getdata.php";
                         <div>
                             <h1><?= $_SESSION["username"]; ?></h1>
                         </div>
-                        <a href="../profile/settingsBio.php"><button class="btn btn-outline-warning">edit profile</button></a>
+                        <a href="../profile/settingsAvatar.php"><button class="btn btn-outline-warning">edit profile</button></a>
 
                     </div>
 

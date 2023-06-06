@@ -130,11 +130,37 @@ include "../../PHP/db_conn.php";
             <!-- <div class="col px-auto mx-auto">
                 <img src="../../CSS/images/sample.png" class="img-responsive img-fluid" alt="Responsive image">
             </div> -->
-          <h1>References</h1>
-          <p>the website design is heavly inspired from osu</p>
-          <p>images</p>
-       
-          
+            <div class="col text-center">
+                <h1>References</h1>
+                <p>the website design is heavly inspired from osu</p>
+                <p>Terms of Service is replicated from the DevianArt Policy</p>
+                <p>images</p>
+            </div>
+
+            <div class="container-sm">
+                <div class="col text-center">
+                    <p>https://www.pinterest.ph/pin/492649950504589/feedback/?invite_code=932d9ea1eddc45d29028bce03f478161&sender_id=755619781138435812</p>
+                    <p>https://www.pinterest.ph/pin/140806230642000/feedback/?invite_code=47d180992f7b482c8dd15e52f52f80a3&sender_id=755619781138435812</p>
+                    <p>https://www.pinterest.ph/pin/7388786881862327/feedback/?invite_code=17559e10d44d403eae88c2c23d06a75b&sender_id=755619781138435812</p>
+                    <p>https://www.pinterest.ph/pin/807622145695104641/feedback/?invite_code=e3c05706638c4a3d8573d2fe1097e94c&sender_id=755619781138435812</p>
+                    <p>https://www.pinterest.ph/pin/83175924378644509/feedback/?invite_code=3face6cd570d4afe8d4aaf0a0a004d3f&sender_id=755619781138435812</p>
+                    <p>https://www.pinterest.ph/pin/140806231658466/feedback/?invite_code=3d935bf521a344e996e22aebfc0534fc&sender_id=755619781138435812</p>
+                    <p>https://www.pinterest.ph/pin/647814727662535746/feedback/?invite_code=b6b25f057f2e4f5f9ed834ecacf1caac&sender_id=755619781138435812</p>
+                    <p>https://www.pinterest.ph/pin/492649951413042/feedback/?invite_code=246e93a34a434997bf3e4a23cf0d3574&sender_id=755619781138435812</p>
+                    <p>https://www.pinterest.ph/pin/749216088009622702/feedback/?invite_code=b0be1e990ca0430daa82f84debe97f2e&sender_id=755619781138435812</p>
+                    <p>https://www.pinterest.ph/pin/241224123783526514/feedback/?invite_code=a49e2d26057142cdaaa64601762cbdb0&sender_id=755619781138435812</p>
+                    <p>https://www.pinterest.ph/pin/6755468182895608/feedback/?invite_code=72e2e0914f9948398d42dc3afcd0adaa&sender_id=755619781138435812</p>
+                    <p>https://www.pinterest.ph/pin/11540542789598800/feedback/?invite_code=252d44825f924fabbf588dbcdd84cbc1&sender_id=755619781138435812</p>
+                    <p>https://www.shutterstock.com/search/artwork</p>
+                    <p>https://www.saatchiart.com/art/Painting-When-the-party-s-over/896699/6410091/view</p>
+                    <p>https://www.pinterest.ph/yuliscervantes93/</p>
+                    <p>https://www.pinterest.ph/pin/344032859040111954/</p>
+                    <p>https://www.pinterest.ph/pin/460844974363529986/</p>
+                    <p>https://felt.co.nz/listing/531818/MOSAIC-RAINBOW-HEART-2---GARDEN-WALL-ART</p>
+                </div>
+
+            </div>
+
 
 
         </div>
